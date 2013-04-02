@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+      New Insights from your formhub map &ndash;
+    
+    formhub blog
+  </title>
+
+  <meta name="author" content="formhub blog" />
+  <meta name="description" content="updates from the formhub team on your favorite data gathering platform." />
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <!--<img src="?s=150" height="75" width="75" class="avatar" />-->
+    </a>
+
+    <section class="name">
+      <a href="/">
+        <span id="fname">formhub</span>
+        <span id="lname">blog</span>
+      </a>
+    </section>
+
+    <section class="meta">
+      <a href="https://github.com/modilabs" target="_blank"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/formhub" target="_blank"><img src="/images/twitter.png"></a>
+      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+    <section class="sections">
+      <ul>
+        <li><a href="/posts.html">posts</a></li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="content">
+  <h1>
+    <a href="/2012/04/09/new-insights-from-your-formhub-map">New Insights from your formhub map</a>
+  </h1>
+
+  <section class="byline">
+    April  9, 2012
+  </section>
+
+  <p>formhub is designed to make data collection simple and collaborative. But data collection is only a means&hellip; the end goal is gaining insights from data. While formhub cannot provide the rich variety of analysis needed for every dataset, we have been recently been working on features that should give formhub users some basic and rapid insights about data as soon as it is collected.</p>
+
+<p>The immediate goals are to allow formhub&rsquo;s users to:</p>
+
+<ul>
+<li><p>Color the map according to responses to select questions. For example, the screenshot below shows our responses to a water questionnaire color coded by responses to a question about <strong>mobile signal strength</strong> near Port A Piment in Haiti, which shows that signal strength is high (red in this case) only along the coast:<a href="/images/posts/2012/04/formhub-20120409-125331.jpg"><img src="/images/posts/2012/04/formhub-20120409-125331-300x187.jpg" alt="" /></a>
+Right now, this feature is enabled for &ldquo;select one&rdquo; questions; we will soon be extending it to numerical and date responses as well.</p></li>
+<li><p>Filter responses on the map by selecting a particular response and a filter criteria&mdash;for example, view all the data where the respondent's age is between 25 and 30. This feature is up and coming; we hope it allows users to explore datasets with large number of datapoints (which may overlap with each other).
+    <strong>UPDATE:</strong> This is now possible: in the legend, you will see that some of the answer-responses appear as a link. Click one of them, and the points on the map will be filtered; only responses that have that particular answer show up. You can also click on multiple items, or click on the link again to remove the filter. See picture below for example:</p></li>
+</ul>
+
+
+<p><a href="/images/posts/2012/04/Screen-Shot-2012-05-04-at-2.00.48-PM.png"><img src="/images/posts/2012/04/Screen-Shot-2012-05-04-at-2.00.48-PM-300x138.png" alt="" /></a></p>
+
+<p><strong>The Implementation Details</strong></p>
+
+<p>In order to develop these features, we have developed an API that allows retrieval of responses via the URL http://formhub.org/<strong><username></strong>/forms/<strong><form_name></strong>/api [ref]  The API is a simple mongodb query API, and is currently meant for formhub&rsquo;s internal use. If you have external use cases for an API, please share your use case with <a href="https://groups.google.com/forum/?fromgroups/formhub-users#!forum/formhub-users">formhub-users@googlegroups.com</a> [/ref]. The API allows data filtrations by passing the name of the response and the value to filter by e.g. gender as the name and male as the filter.</p>
+
+<p>We have also migrated the map to the open source <a href="http://leaflet.cloudmade.com/">Leaflet library</a>. The Leaflet library includes a number of features that makes it suitable for formhub:</p>
+
+<ul>
+<li><p>It provides support for a variety of map providers. With this, we have added three maps that are easily switchable from the button on the top right corner i.e. An Open Street Map, a Bing Road Map and a Bing Satelite Map</p></li>
+<li><p>It includes out of the box support for the GeoJSON map data format. This allows us to easily modify the map data using client-side javascript.</p></li>
+</ul>
+
+
+<p>The first item of the analysis goals is now live on the maps.  To use this feature, click on the item labeled "<strong>View By</strong>&ldquo; on the top right and pick a response to use.</p>
+
+<p>As always, any feedback on what we can do to improve these tools will be greatly appreciated.</p>
+
+
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+    <section class="copy">
+      <!--<a href="https://twitter.com/formhub" target="_blank">
+        <img src="?s=142" height="50" width="50" />
+      </a>-->
+
+      <p>
+
+      </p>
+
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="formhub">Tweet</a>
+      <a href="http://twitter.com/formhub" class="twitter-follow-button" data-show-count="false">Follow @formhub</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </section>
+  </section>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'buildafrica'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+</section>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-83697-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>

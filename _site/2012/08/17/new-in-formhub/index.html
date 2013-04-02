@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+      New in formhub... &ndash;
+    
+    formhub blog
+  </title>
+
+  <meta name="author" content="formhub blog" />
+  <meta name="description" content="updates from the formhub team on your favorite data gathering platform." />
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <!--<img src="?s=150" height="75" width="75" class="avatar" />-->
+    </a>
+
+    <section class="name">
+      <a href="/">
+        <span id="fname">formhub</span>
+        <span id="lname">blog</span>
+      </a>
+    </section>
+
+    <section class="meta">
+      <a href="https://github.com/modilabs" target="_blank"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/formhub" target="_blank"><img src="/images/twitter.png"></a>
+      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+    <section class="sections">
+      <ul>
+        <li><a href="/posts.html">posts</a></li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="content">
+  <h1>
+    <a href="/2012/08/17/new-in-formhub">New in formhub...</a>
+  </h1>
+
+  <section class="byline">
+    August 17, 2012
+  </section>
+
+  <p>At formhub, we don&rsquo;t have versioned releases. Instead, we follow the &ldquo;<a href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration/deployment</a>&rdquo; model. While we deploy updates <a href="http://timothyfitz.wordpress.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/">nearly as frequently as some</a>, we do push updates quite frequently; often more than once a day. This makes the standard announcement of features per release a little tougher, so I&rsquo;ve tried to start a &ldquo;new in formhub&rdquo; post per week over at <a href="https://groups.google.com/group/formhub-users">formhub-users</a>. Here are the last two:</p>
+
+<p><em><strong>Posted on Friday, August 17:</strong></em></p>
+
+<ul>
+<li>formhub now serves up the media you upload to it properly to ODK collect. For those of your working with media in your forms, the process should become much more seamless now. Check out the <a href="http://formhub.org/formhub_u/forms/Birds">Birds form on formhub_u</a> to see how this works. (adapted from the odk forms <a href="https://code.google.com/p/opendatakit/source/browse/?repo=forms">repo</a>) </li>
+<li>A new header and other stylistic changes. We have begun a process of the UI revamp on formhub, and a new header, typography, and other stylistic changes were pushed up this week. Hope you like them!</li>
+<li>Leaflet upgrade. We upgraded the mapping library we use, leaflet.js to <a href="http://leaflet.cloudmade.com/2012/07/30/leaflet-0-4-released.html">0.4</a>. You may notice a few little changes on the map, like a smoother zoom.</li>
+<li>IE 0.9 fix. During the addition of google satellites, we accidentally broke the map view for IE 0.9 users. That has been fixed.</li>
+<li>Data posts to bamboo as they come into formhub working. This will sound cryptic to most. But once our web-data-analysis engine bamboo is released, this feature (continuous updates) will make many of you happier :)</li>
+</ul>
+
+
+<p><em><strong>Posted on Friday, August 10:</strong></em></p>
+
+<ul>
+<li>formhub can now update an external webservice with data as data is submitted to formhub (see <a href="http://blog.formhub.org/2012/08/06/posting-to-external-site/">the blogpost</a> for details)</li>
+<li>Google Satellite Maps are now available as a background on the map view</li>
+<li>formhub&rsquo;s xlsform engine now has a &ldquo;hidden&rdquo; field (which only takes a &ldquo;name&rdquo;) which outputs a bind element, and  a space in the instance, but nothing in the body &mdash; this was added for those using formhub as an xform-generation engine to produce xforms for commcare, which makes use of these &lsquo;hidden&rsquo; fields to load case data</li>
+<li>i18n support: formhub now has the infrastructure to support site-wide translations. Those with their <a href="http://www.w3.org/International/questions/qa-lang-priorities.en.php">browser locale settings</a> set to French should already see quite a bit of the site translated.</li>
+</ul>
+
+
+
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+    <section class="copy">
+      <!--<a href="https://twitter.com/formhub" target="_blank">
+        <img src="?s=142" height="50" width="50" />
+      </a>-->
+
+      <p>
+
+      </p>
+
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="formhub">Tweet</a>
+      <a href="http://twitter.com/formhub" class="twitter-follow-button" data-show-count="false">Follow @formhub</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </section>
+  </section>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'buildafrica'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+</section>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-83697-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>

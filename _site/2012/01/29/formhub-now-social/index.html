@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+      New Features! Making data collection more collaborative and social &ndash;
+    
+    formhub blog
+  </title>
+
+  <meta name="author" content="formhub blog" />
+  <meta name="description" content="updates from the formhub team on your favorite data gathering platform." />
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <!--<img src="?s=150" height="75" width="75" class="avatar" />-->
+    </a>
+
+    <section class="name">
+      <a href="/">
+        <span id="fname">formhub</span>
+        <span id="lname">blog</span>
+      </a>
+    </section>
+
+    <section class="meta">
+      <a href="https://github.com/modilabs" target="_blank"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/formhub" target="_blank"><img src="/images/twitter.png"></a>
+      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+    <section class="sections">
+      <ul>
+        <li><a href="/posts.html">posts</a></li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="content">
+  <h1>
+    <a href="/2012/01/29/formhub-now-social">New Features! Making data collection more collaborative and social</a>
+  </h1>
+
+  <section class="byline">
+    January 29, 2012
+  </section>
+
+  <p>We&rsquo;re excited to announce the release of a major new set of features to formhub.  With these updates, we have not only made mobile data collection even easier, but we&rsquo;ve started to introduce the elements that will make data collection more collaborative and even social.  Namely, with formhub you can now easily share forms and publish data.</p>
+
+<p>Each formhub user, or formhubber as we like to say ;&ndash;), now has their own <a href="https://formhub.org/mberg">public profile pag</a>e that displays any XLSForms or data sets that the user has chosen to share.  Each shared form/data set also has it&rsquo;s own <a href="https://www.formhub.org/mberg/forms/good_eats">dedicated page</a> from which you can view a description of the form, download the original XLSForm used to author the form (if form is shared), export the data in excel, csv or KML (if data is shared) and view a dedicated interactive web map if the form data contains GPS points.   When logged in, the owner of the form can now edit the tile and description of their form and share their XLSForm or data with a flip of a switch.   By default all forms and data are private.  It&rsquo;s completely up to you to share.</p>
+
+<p><a href="/images/posts/2012/01/Screen-Shot-2012-01-29-at-5.57.20-PM.png"><img src="/images/posts/2012/01/Screen-Shot-2012-01-29-at-5.57.20-PM.png" alt="" /></a></p>
+
+<p><em>formhub User&rsquo;s Public Profile Page</em></p>
+
+<p>To make discovery of new forms possible, we&rsquo;ve introduced a <a href="https://formhub.org/forms">form gallery</a> that lists all shared forms and a <a href="https://formhub.org/people">searchable directory</a> of other formhubbers using the system.</p>
+
+<p>Since we take data privacy and security very seriously,  you can now access access your account and submit data over https with 256 bit SSL encryption.   To benefit from this please access your account via <a href="https://formhub.org">https://formhub.org</a> and switch your server settings accordingly on your phone. <em>Note: this required using ODK Collect 1.1.7.</em></p>
+
+<p>We hope you like these new changes and welcome all feedback.   If you signed up for formhub in our early days, we encourage you to come back and have another look!</p>
+
+<p><strong>Summary of new features </strong></p>
+
+<ul>
+<li><p>Dedicated <a href="https://formhub.org/mberg">personal page profile</a> with ability to add basic profile information and <a href="http://www.gravatar.com">gravatar</a> support</p></li>
+<li><p><a href="https://formhub.org/forms">Form Gallery</a> &ndash;  Browse data collection forms others have shared in the form gallery</p></li>
+<li><p><a href="http://formhub.org/people">People directory</a> &ndash; Meet other formhubbers</p></li>
+<li><p>Ability to rename forms and give them a description</p></li>
+<li><p>Ability to easily share or hide forms and form data</p></li>
+<li><p>Support to upload XLSforms from external URLs</p></li>
+<li><p>KML exports</p></li>
+<li><p>Improved Excel and CSV  export support for repeats in forms</p></li>
+<li><p>Dedicated <a href="http://formhub.org/mberg/forms/good_eats/map">map pages</a></p></li>
+</ul>
+
+
+<p><strong>Other features coming soon</strong></p>
+
+<ul>
+<li><p>Image thumb-nailing and media storage in S3</p></li>
+<li><p>ODK Collect authentication support</p></li>
+<li><p>Better support for versioning of forms</p></li>
+<li><p>Licensing options for forms and shared data</p></li>
+<li><p>Improved handling of labels on exports.  R  and other statistical package support.</p></li>
+<li><p>Implementation of finalized XLSForm standard (reconciles differences between formhub and ODK XLS2XForm standards).  These additions will allow for full implementation of <a href="http://opendatakit.org/help/form-design/examples/">ODK Collect 1.1.7 widgets</a> including multi-media support.</p></li>
+<li><p>Support for webforms (preview your survey or do collection on the web)</p></li>
+<li><p>View form data in tables</p></li>
+<li><p>Built in statistical analysis with vizualizations</p></li>
+<li><p>Improved documentation on authoring forms</p></li>
+<li><p>Deployment scripts to make the deployment of your own formhub server easier.</p></li>
+<li><p>OSM map support!</p></li>
+</ul>
+
+
+
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+    <section class="copy">
+      <!--<a href="https://twitter.com/formhub" target="_blank">
+        <img src="?s=142" height="50" width="50" />
+      </a>-->
+
+      <p>
+
+      </p>
+
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="formhub">Tweet</a>
+      <a href="http://twitter.com/formhub" class="twitter-follow-button" data-show-count="false">Follow @formhub</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </section>
+  </section>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'buildafrica'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+</section>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-83697-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>

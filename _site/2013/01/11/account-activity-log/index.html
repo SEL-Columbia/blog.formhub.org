@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+      Account activity log &ndash;
+    
+    formhub blog
+  </title>
+
+  <meta name="author" content="formhub blog" />
+  <meta name="description" content="updates from the formhub team on your favorite data gathering platform." />
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <!--<img src="?s=150" height="75" width="75" class="avatar" />-->
+    </a>
+
+    <section class="name">
+      <a href="/">
+        <span id="fname">formhub</span>
+        <span id="lname">blog</span>
+      </a>
+    </section>
+
+    <section class="meta">
+      <a href="https://github.com/modilabs" target="_blank"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/formhub" target="_blank"><img src="/images/twitter.png"></a>
+      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+    <section class="sections">
+      <ul>
+        <li><a href="/posts.html">posts</a></li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="content">
+  <h1>
+    <a href="/2013/01/11/account-activity-log">Account activity log</a>
+  </h1>
+
+  <section class="byline">
+    January 11, 2013
+  </section>
+
+  <p>Many data collection projects have strict research protocols on how data can be accessed or modified.  To help with with this, we&rsquo;re excited to announce that we&rsquo;ve added activity/audit logs to formhub.  This allows you to view what actions have been performed on your formhub account, by which user(s) and at what times. To access this log, click on the little arrow next to your username and select &ldquo;Account Activity&rdquo; from the list.</p>
+
+<p><strong>The Account Activity page</strong></p>
+
+<p>The activity list has these 4 columns:</p>
+
+<ol>
+<li> Performed On &ndash; The date and time that the action was performed</li>
+<li> Action &ndash; The name of the action performed</li>
+<li> Performed By &ndash; The username of the user who performed the action</li>
+<li> Description &ndash; A short description of what was exactly done and what it affected</li>
+</ol>
+
+
+<p><a href="/images/posts/2013/01/Screen-Shot-2013-01-15-at-10.35.58-PM.png"><img src="/images/posts/2013/01/Screen-Shot-2013-01-15-at-10.35.58-PM.png" alt="" /></a></p>
+
+<p>Initially, the list will display the most recent activity first, this sort order can be changed by clicking on the &ldquo;Performed On&rdquo; column header (or any of the other columns headers to sort by them).</p>
+
+<p><strong>Filtering the activity list</strong></p>
+
+<p>You can perform a filter on the activity list to for example look at any form delete actions. There are two ways to perform filters.</p>
+
+<ol>
+<li> Using the general search box labelled &ldquo;Search data&hellip;&rdquo;. This search looks through each of the fields for whatever you type in. It is fine for a general search but you cannot for example search for actions within a specific time period.</li>
+<li> Using the filter box on the right to search through specific fields. This allows you to specify which field to search through and allows you specify strict criteria. E.g. to search for activity between two dates, click on &ldquo;Add Filter&rdquo;, leave the field as &ldquo;Performed On&rdquo; and change type to <strong>Range</strong> and click <strong>Add</strong> to add the filter. The <strong>Range</strong> filter type allows you to specify the start and end values of the range via the <strong>From</strong> and <strong>To </strong>fields. Clicking on either will display a date picker that would allow you to specify the date. As of this writing, you will have to specify the time by typing it in manually. Click on &ldquo;Update&rdquo; to apply the filter.</li>
+</ol>
+
+
+<p>The filter can also be used to search for specific actions from a list of pre-defined actions. To do this, start by clicking on &ldquo;Add Filter.&rdquo; Change the field to &ldquo;Actions&rdquo; and the filter type to &ldquo;Options&rdquo; and add the filter. This will display a dropdown with the list of available action types as follows:</p>
+
+<ul>
+<li>public-profile-accessed &ndash; When the account&rsquo;s profile is accessed by anyone other then the owner</li>
+<li>profile-settings-updated &ndash; When the account&rsquo;s settings are updated</li>
+<li>bulk-submissions-made &ndash; When a bulk submission is made to the account</li>
+<li>form-accessed &ndash; When a form on the account is accessed. The description will include the name of the form</li>
+<li>form-published &ndash; When a form is published</li>
+<li>form-updated &ndash; When a form&rsquo;s seetings are updated, the description will include which settings were updated and what the values were changed to</li>
+<li>form-xls-downloaded &ndash; When the source XLS file is downloaded</li>
+<li>form-xls-updated &ndash; When an existing form&rsquo;s XLS is updated</li>
+<li>form-deleted &ndash; When a form is deleted</li>
+<li>form-cloned &ndash; When a form is cloned</li>
+<li>form-permissions-updated &ndash; When the form&rsquo;s sharing permissions are updated</li>
+<li>form-enter-data-requested &ndash; When the web form entry is initiated</li>
+<li>form-map-viewed &ndash; When the form page is opened</li>
+<li>form-data-viewed &ndash; When the form&rsquo;s data is viewed through the various web views</li>
+<li>export-created &ndash; When an export is created</li>
+<li>export-downloaded &ndash; When an export is downloaded</li>
+<li>export-deleted &ndash; When an export is deleted</li>
+<li>submission-created &ndash; When a submission is made</li>
+<li>submission-deleted &ndash; When a submission is deleted</li>
+<li>submission-edit-requested &ndash; When a submission edit is requested. When the edit is complete, it will be logged as a submission-created</li>
+<li>bamboo-link-created &ndash; A link to the bamboo service is created</li>
+<li>bamboo-link-deleted &ndash; A link to the bamboo service is deleted</li>
+</ul>
+
+
+
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+    <section class="copy">
+      <!--<a href="https://twitter.com/formhub" target="_blank">
+        <img src="?s=142" height="50" width="50" />
+      </a>-->
+
+      <p>
+
+      </p>
+
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="formhub">Tweet</a>
+      <a href="http://twitter.com/formhub" class="twitter-follow-button" data-show-count="false">Follow @formhub</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </section>
+  </section>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'buildafrica'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+</section>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-83697-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>

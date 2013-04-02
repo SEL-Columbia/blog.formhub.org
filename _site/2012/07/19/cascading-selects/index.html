@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+      Cascading Selects &ndash;
+    
+    formhub blog
+  </title>
+
+  <meta name="author" content="formhub blog" />
+  <meta name="description" content="updates from the formhub team on your favorite data gathering platform." />
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <!--<img src="?s=150" height="75" width="75" class="avatar" />-->
+    </a>
+
+    <section class="name">
+      <a href="/">
+        <span id="fname">formhub</span>
+        <span id="lname">blog</span>
+      </a>
+    </section>
+
+    <section class="meta">
+      <a href="https://github.com/modilabs" target="_blank"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/formhub" target="_blank"><img src="/images/twitter.png"></a>
+      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+    <section class="sections">
+      <ul>
+        <li><a href="/posts.html">posts</a></li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="content">
+  <h1>
+    <a href="/2012/07/19/cascading-selects">Cascading Selects</a>
+  </h1>
+
+  <section class="byline">
+    July 19, 2012
+  </section>
+
+  <p>Within the <a href="http://modi.mech.columbia.edu">Modi Research Group</a> (informally known as modilabs), we are constantly creating new ways to improve the xlsform-based data collection process. Sometimes we are so busy thinking of new things and implementing them that we don&rsquo;t even announce some of the features we have introduced to make data collection simpler and easier. This time around, I want to talk about cascading-selects, a feature that we introduced into xlsform / formhub a couple of months ago, and which intrepid user Nikolai has dug up and <a href="https://groups.google.com/d/topic/opendatakit/JHAbgh1kKOs/discussion">started spreading</a> around (thanks Nik for forcing us to write this blog post :).</p>
+
+<p><strong>The problem</strong></p>
+
+<p>Say you want to do data collection, and present the user with a series of selection questions, where the answer depends on a previous selection. The classic example is asking someone to enter a district in a country. But you don&rsquo;t want the user to deal with 777 options at once (example from Nigeria), so you present enumerators with a question asking them about the zone they are in (6 in the country), the state they are in depending no the zone (less than 10 per zone), and then, finally, the LGA, depending on the state they are in.</p>
+
+<p>Turns out that this is possible with xlsforms without cascading select, but it requires you to write out one question per state in this case (36 different questions), with a fairly complex criteria in the relevant column. And even then, the end information you care about is what zone, state, and LGA the enumerator has filled out information about. Calculating this information requires writing a gigantic if statement, with the same number of branches as there are states in the country! This is quite an unimaginable process, so people have to resort to something like using a different tool for the job, like Kobo Collect. We wanted to make a tool so people could use formhub painlessly and still collect cascading-select information.</p>
+
+<p><strong>The feature</strong></p>
+
+<p>****Since xlsforms are computer processed, we introduced a feature called cascading-select, where the user is able to simply list the cascading relationships. In a sheet called <code>cascades</code> the xlsform needs a table like so:</p>
+
+<p>name</p>
+
+<p>zone</p>
+
+<p>state</p>
+
+<p>lga</p>
+
+<p>label</p>
+
+<p>Choose your zone:</p>
+
+<p>Choose your state:</p>
+
+<p>Choose your lga:</p>
+
+<p>choice_label</p>
+
+<p>Zone 1</p>
+
+<p>State 1</p>
+
+<p>LGA 1</p>
+
+<p>choice_label</p>
+
+<p>Zone 1</p>
+
+<p>State 1</p>
+
+<p>LGA 2</p>
+
+<p>choice_label</p>
+
+<p>Zone 1</p>
+
+<p>State 2</p>
+
+<p>LGA 3</p>
+
+<p>choice_label</p>
+
+<p>Zone 1</p>
+
+<p>State 2</p>
+
+<p>LGA 4</p>
+
+<p>choice_label</p>
+
+<p>Zone 2</p>
+
+<p>State 3</p>
+
+<p>LGA 5</p>
+
+<p>choice_label</p>
+
+<p>Zone 2</p>
+
+<p>State 3</p>
+
+<p>LGA 6</p>
+
+<p>choice_label</p>
+
+<p>Zone 2</p>
+
+<p>State 4</p>
+
+<p>LGA 1</p>
+
+<p>choice_label</p>
+
+<p>Zone 2</p>
+
+<p>State 4</p>
+
+<p>LGA 2</p>
+
+<p>And in the survey sheet, a simple question like:</p>
+
+<p>type</p>
+
+<p>name</p>
+
+<p>cascading_select lga</p>
+
+<p>mylga</p>
+
+<p>will present the user with three questions (which one shows up totally depends on previous input):</p>
+
+<p><a href="/images/posts/2012/07/2012-07-19_08-39-20.png">
+</a></p>
+
+<p><a href="/images/posts/2012/07/2012-07-19_08-39-20.png"><img src="/images/posts/2012/07/2012-07-19_08-39-20-168x300.png" alt="" /></a> <a href="/images/posts/2012/07/2012-07-19_09-58-52.png"><img src="/images/posts/2012/07/2012-07-19_09-58-52-168x300.png" alt="" /></a> <a href="/images/posts/2012/07/2012-07-19_08-39-43.png"><img src="/images/posts/2012/07/2012-07-19_08-39-43-168x300.png" alt="" /></a></p>
+
+<p><a href="/images/posts/2012/07/2012-07-19_08-39-43.png">
+</a></p>
+
+<p>But underneath the hood, xlsforms will generate 7 different select-one questions (1 for the zone, 2 for the states (per zone), and 4 for the LGAs (per state)), and write the appropriate skip logic to ask them given the right prior selections. [ref] Try it our yourself! Go to <a href="http://formhub.org/forms">the forms page on formhub</a>, search for &ldquo;cascad" , and clone any of the forms that show up there. The one I have worked above is available <a href="http://formhub.org/pld/forms/cascading_select_test">here</a> or <a href="http://formhub.org/prabhasp/forms/cascading_select_test_cloned">here</a>. [/ref]</p>
+
+<p>And even more, there will be calculations added to the form, so that if you want to know the zone, the state, or the LGA of your submission, you can just look for variables called mylga, mylga_state, and mylga_zone in this case. The &ldquo;mylga&rdquo; bit was obtained from the name assigned to the cascading select, and the &ldquo;state&rdquo; and the &ldquo;zone&rdquo; respectively from the &ldquo;name&rdquo; row in the &ldquo;cascades&rdquo; sheet.</p>
+
+<p><a href="/images/posts/2012/07/Screen-Shot-2012-07-19-at-10.12.27-AM.png"><img src="/images/posts/2012/07/Screen-Shot-2012-07-19-at-10.12.27-AM.png" alt="" /></a></p>
+
+<p>The above is a simple test case, and may not seem impressive. But when you&rsquo;re dealing with 777 LGAs, like we were in Nigeria, the feature can be a life-saver. The nice bonus is that admin boundary data is stored in a format that corresponds very closely to the cascades sheet.</p>
+
+<p><strong>The limitations / the future of cascading-selects</strong></p>
+
+<p>Those intimately familiar with xlsforms will wonder: so we specified the &ldquo;label"s for each of the options above, but where are the "name"s for each of the options? xlsforms derives the names directly from the label, but knocking out capital letters, and replacing all non-alphanumeric with an underscore. This makes the form-authoring convenient, but introduces a major limitation (and perhaps the main reason we haven&rsquo;t been all-drums-blaring about cascading-selects). This automatic name derivation, which departs from the xlsform norm, means that not only are we missing the ability to create custom slugs (such as digit codes for districts), but the multiple language support in the rest of xlsform falls through :( [ref] We do have ideas about how to take cascading selects to a form which supports name/label pairings and multiple languages, so if there is a team out there with developer resources available and wanting to expand this feature, please get in touch with us at support@formhub.org. As always, you can check out (in this case, a possibly hairy) implementation at http://github.com/modilabs/pyxform [/ref].</p>
+
+<p>The second limitation is that we use javarosa without itemselects, which means that the xform that ODK collect evaluates contains many many questions with a long menu of options, and a really complex calculation. ODK actually crashed for us at the level of complexity of 777 LGAs in 36 states (although half that number was okay). A better approach might be to use new javarosa itemselects; we haven&rsquo;t explored this path yet, but likely will soon, as ODK Collect 1.2 will soon come out with item-select support..</p>
+
+<p>The third limitation is a bug that is easy to get around, but might catch you by surprise. Because the code generates a name based on the label, if you have two states with the same label (but in two different zones), cascading selects won&rsquo;t work properly. It will handle LGAs (i.e., leaf-level options) with the same label in two states, but two states with the same name will cause problems. The solution, if you encounter this, is to change the spelling of one state (adding spaces at the end should suffice, but please do check that it does).</p>
+
+<p><a href="/images/posts/2012/07/Screen-Shot-2012-07-19-at-10.12.27-AM.png">
+</a></p>
+
+
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+    <section class="copy">
+      <!--<a href="https://twitter.com/formhub" target="_blank">
+        <img src="?s=142" height="50" width="50" />
+      </a>-->
+
+      <p>
+
+      </p>
+
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="formhub">Tweet</a>
+      <a href="http://twitter.com/formhub" class="twitter-follow-button" data-show-count="false">Follow @formhub</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </section>
+  </section>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'buildafrica'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+</section>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-83697-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>

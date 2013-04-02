@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    
+      Data Gatherers of the World Unite! &ndash;
+    
+    formhub blog
+  </title>
+
+  <meta name="author" content="formhub blog" />
+  <meta name="description" content="updates from the formhub team on your favorite data gathering platform." />
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/application.js"></script>
+</head>
+
+<body>
+  <section class="sidebar">
+    <a href="/">
+      <!--<img src="?s=150" height="75" width="75" class="avatar" />-->
+    </a>
+
+    <section class="name">
+      <a href="/">
+        <span id="fname">formhub</span>
+        <span id="lname">blog</span>
+      </a>
+    </section>
+
+    <section class="meta">
+      <a href="https://github.com/modilabs" target="_blank"><img src="/images/github.png" /></a>
+      <a href="https://twitter.com/formhub" target="_blank"><img src="/images/twitter.png"></a>
+      <a href="/atom.xml"><img src="/images/rss.png" /></a>
+    </section>
+
+    <section class="sections">
+      <ul>
+        <li><a href="/posts.html">posts</a></li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="content">
+  <h1>
+    <a href="/2011/12/05/data-gatherers-of-the-world-unite">Data Gatherers of the World Unite!</a>
+  </h1>
+
+  <section class="byline">
+    December  5, 2011
+  </section>
+
+  <p>We are really excited to announce the beta release of <a href="http://formhub.org">formhub</a>, a service for making data collection <strong>simpler</strong> and <strong>more collaborative</strong>. Great projects like the Open Data Kit (ODK) project have provided us with very simple tools to collect data, but the process of authoring surveys and going from survey specification to data has always been cumbersome, and accessible only to highly technical users. formhub aims to make the whole data collection process simpler and more collaborative.</p>
+
+<p>formhub makes data collection <strong>simpler</strong> by making survey authoring simpler, and by providing a hosted site in which going from authored survey to data is quick and painless. formhub has already been used to collect data for more than 12,000 surveys, and the process that inspired formhub was used to collect data on more than 30,000 facilities, so we know it works at scale.</p>
+
+<p>formhub also makes data collection <strong>more collaborative</strong> by working with a human-readable format for authoring xform-based surveys. This new format, XLSform, is based on an underlying excel file, which anyone with access to Microsoft Office, LibreOffice, or Google Docs can edit. Being both human-accessible and machine-readable also makes XLSforms an ideal format with which to share survey specifications once surveys have been fully vetted and authored.</p>
+
+<h2>The XLSForm Standard</h2>
+
+<p>Much of our work at the Modi Research Group involves building large complex forms for surveys that often involve hundreds of questions, need to be available in multiple languages, and need to be vetted by multiple people in multiple teams. To help with this process, one of our engineers, Andrew Marder, came up with a way to author the forms in Excel (we then convert them into XForms using a tool called XLS2XForm). We found that web-based form builders were great for building simple forms but were cumbersome as the size and complexity of forms grew. Machine-interpretable surveys in excel files, on the other hand, enabled us to use great tools like Google Docs, Microsoft Excel, and dropbox to manage our surveys. These excel files allowed us to share forms and get feedback from multiple non-technical teams. The excel files are easy to interpret, easy to edit, and thanks to Google Docs extremely easy to collaborate on.</p>
+
+<p><strong>Human Readable</strong></p>
+
+<p>We’re excited by the XLSForms because we feel they are both machine and human readable, and we hope they can be viable standard for sharing data collection tools.  The xform, which was designed to do this, allows for great interoperability between machine systems but is almost impossible for normal people to read.  As a result, forms are shared in PDF or Microsoft Word-based formats, which can’t easily be converted into a digital data collection process. With XLSForms, you get surveys that are readable with a human eye, as well as by machines. This makes them an ideal format for sharing: as people collaborate over survey design, or once the survey is designed and the need to share with additional partners or the public at large (in a re-usable format) arises.</p>
+
+<p><em>See what we mean about readability? (Pictures are parts of xform and xlsform specifying the same survey).</em></p>
+
+<p><img src="https://lh6.googleusercontent.com/Rf7ZectmEC51EVsNfMyhIPyuhytE07PnITBdLxvwb1wEkFSUSoYgNP3OO6439Ho7-qS1WdmFEjY2l-DwmzAW_YUn34yg1dt1rowCnoTQXmV7kuxVH5I" alt="" /></p>
+
+<p><img src="https://lh5.googleusercontent.com/ynVVTqMxoV28vLMR0X1KNcQTSSYNLEQOyy3-U6OGMzkMIF-5oSER9IKjycLO8yv21f65FEkZsZ_e6n07-C6zpYZdz5yT-0eeSHsFYtjUF3s1aSazHJo" alt="" /></p>
+
+<h2>Shareable</h2>
+
+<p>We built formhub around the idea of sharing forms. Sharing forms during survey design, the first point of need for sharing can be done using email and Google Docs. But once a survey is ready and published on formhub, we want to allow survey designers to share their data collection tools with the public or partners they collaborate with. One of the most exciting features on formhub will be this feature—to be able to share an XLSform (an excel file) which has been published as a survey. We don’t have this sharing feature ready yet, but its coming, and we couldn’t be more excited about building it.</p>
+
+<h2>Simple End-to-End Data Collection</h2>
+
+<p>In addition to allowing everyone to use an easy to share and collaborate medium for defining surveys, formhub allows painless deployment of data collection efforts. The process for deploying a survey through formhub is very simple, and no technical setup knowledge is required.</p>
+
+<p>The survey deployer simply:</p>
+
+<ul>
+<li>signs up for an account</li>
+<li>writes a survey in the XLSform format</li>
+<li>submits the XLSform to formhub</li>
+</ul>
+
+
+<p>On the data collection side, the data collectors can leverage ODK’s workflow, and simply need to:</p>
+
+<ul>
+<li>configure ODK’s server preferences to point to the appropriate formhub username</li>
+<li>download the appropriate form</li>
+<li>conduct the survey</li>
+<li>and submit the data.</li>
+</ul>
+
+
+<p>The data is then immediately available for viewing on a google map or for download from formhub as CSV or Excel files. In demonstrations and trainings, new users have been able to sign up for an account, write simple surveys, deploy them, and get incoming data in a span of minutes.</p>
+
+<p>If you have a half an hour to spend, we suggest you to try it yourself!</p>
+
+<h2>formhub in Five Words</h2>
+
+<p>We hope formhub becomes the <em>hub</em> of your <em>mobile data collection needs</em>.</p>
+
+<p><strong>Simple.</strong>
+All you need to get started is an account on formhub, and an ability to author .xls files. There is absolutely no technical setup required.</p>
+
+<p><strong>Collaborative.</strong>
+The format that formhub uses, XLSForm, were designed with collaboration in mind. It allows multiple authors to work on the same survey, but even more, once the survey is designed, for survey authors to share their surveys with the world.</p>
+
+<p>By enabling the sharing of forms, we hope to foster a collaborative community of data collectors. In many ways, sharing data collection instruments equates to sharing best practices. The standardization of particular forms promotes data standards.</p>
+
+<p><strong>Secure.</strong>
+We want to provide a safe and secure (https coming soon) place for your data.  We’re working to make sure all data will be backed up in the cloud. At anytime you can easily export your data in excel or CSV formats.</p>
+
+<p><strong>Free (as in beer).</strong>
+Our goal is to provide a free (as in beer) service (no question or submission limits) to allow you to publish a form to a phone and begin collecting data. We aim to keep this service free to not limit access to this service. If eventually our hosting costs get unsustainable we’ll work with the community of users to figure out a way forward.</p>
+
+<p><strong>Free (as in speech).</strong>
+The underlying code for formhub is<a href="http://github.com/modilabs/formhub"> freely available</a> under an opensource license.  We wanted to make it easy to host your own formhub instance if you like and if you’re a developer we’d welcome code contributions.  We built formhub in Python and Django since that’s what we’re comfortable using.  If you like Java there are other excellent back-ends available like<a href="http://opendatakit.org/use/aggregate/"> ODK Aggregate</a> that we encourage you to checkout.</p>
+
+<h2>And Finally, Some Caveats</h2>
+
+<p>Please mind the bumps. This is a work in progress but we’ll endeavor to keep your data safe. We are still working on some core features like sharing, but wanted to get the tool out as its already quite useful!</p>
+
+<p>You can help by providing feedback, ideas for features, reports of bugs and of course compliments!   Knowing we’re providing a helpful tool is what keeps us going.</p>
+
+
+  <!-- TODO: bio here -->
+  <section class="meta">
+    <h3>Discussion, links, and tweets</h3>
+    <section class="copy">
+      <!--<a href="https://twitter.com/formhub" target="_blank">
+        <img src="?s=142" height="50" width="50" />
+      </a>-->
+
+      <p>
+
+      </p>
+
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="formhub">Tweet</a>
+      <a href="http://twitter.com/formhub" class="twitter-follow-button" data-show-count="false">Follow @formhub</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    </section>
+  </section>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'buildafrica'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+</section>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-83697-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>
