@@ -4,7 +4,7 @@
  <title>formhub blog</title>
  <link href="http://blog.formhub.org/atom.xml" rel="self"/>
  <link href="http://blog.formhub.org/"/>
- <updated>2013-04-02T12:07:23+05:30</updated>
+ <updated>2013-04-02T12:15:07+05:30</updated>
  <id>http://blog.formhub.org</id>
  <author>
    <name>formhub blog</name>
@@ -17,6 +17,9 @@
    <updated>2013-02-22T19:38:35+05:30</updated>
    <id>http://blog.formhub.org/2013/02/22/what-is-formhub-a-video</id>
    <content type="html">&lt;p&gt;Want to tell a friend what formhub is, but unable to give them a full demo? Maybe &lt;a href=&quot;http://www.youtube.com/watch?v=jqpmMpkIXSQ&quot;&gt;the following video&lt;/a&gt; will help!&lt;/p&gt;
+
+&lt;iframe width=&quot;480&quot; height=&quot;360&quot; src=&quot;http://www.youtube.com/embed/jqpmMpkIXSQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
 </content>
  </entry>
  
