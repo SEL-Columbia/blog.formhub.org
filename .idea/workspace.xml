@@ -2,49 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b057cc4-9e2e-43f8-995a-c88553478869" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_plugins/excerpt.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_plugins/postmore.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_site/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/layout.html" afterPath="$PROJECT_DIR$/_layouts/layout_old.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-10-20-google-docs-bootstrap-and-django.markdown" afterPath="$PROJECT_DIR$/_posts/2011-10-20-google-docs-bootstrap-and-django.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2011-12-05-data-gatherers-of-the-world-unite.markdown" afterPath="$PROJECT_DIR$/_posts/2011-12-05-data-gatherers-of-the-world-unite.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-09-19-using-technology-for-education-sector-spatial-planning-case-study-from-ghana.markdown" afterPath="$PROJECT_DIR$/_posts/2012-09-19-using-technology-for-education-sector-spatial-planning-case-study-from-ghana.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-10-10-formhub-facilitates-energy-planning-in-liberia.markdown" afterPath="$PROJECT_DIR$/_posts/2012-10-10-formhub-facilitates-energy-planning-in-liberia.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-01-11-account-activity-log.markdown" afterPath="$PROJECT_DIR$/_posts/2013-01-11-account-activity-log.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/README.md" afterPath="$PROJECT_DIR$/_site/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2011/10/20/google-docs-bootstrap-and-django/index.html" afterPath="$PROJECT_DIR$/_site/2011/10/20/google-docs-bootstrap-and-django/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2011/12/05/data-gatherers-of-the-world-unite/index.html" afterPath="$PROJECT_DIR$/_site/2011/12/05/data-gatherers-of-the-world-unite/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2011/12/09/staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses/index.html" afterPath="$PROJECT_DIR$/_site/2011/12/09/staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/01/29/formhub-now-social/index.html" afterPath="$PROJECT_DIR$/_site/2012/01/29/formhub-now-social/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/01/31/form-data-licensing/index.html" afterPath="$PROJECT_DIR$/_site/2012/01/31/form-data-licensing/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/02/23/a-new-xlsform-engine-new-documentation-and-more/index.html" afterPath="$PROJECT_DIR$/_site/2012/02/23/a-new-xlsform-engine-new-documentation-and-more/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/04/09/new-insights-from-your-formhub-map/index.html" afterPath="$PROJECT_DIR$/_site/2012/04/09/new-insights-from-your-formhub-map/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/05/08/formhub-org-in-a-presentation/index.html" afterPath="$PROJECT_DIR$/_site/2012/05/08/formhub-org-in-a-presentation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/07/19/cascading-selects/index.html" afterPath="$PROJECT_DIR$/_site/2012/07/19/cascading-selects/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/08/06/posting-to-external-site/index.html" afterPath="$PROJECT_DIR$/_site/2012/08/06/posting-to-external-site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/08/17/new-in-formhub/index.html" afterPath="$PROJECT_DIR$/_site/2012/08/17/new-in-formhub/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/08/24/hexbins/index.html" afterPath="$PROJECT_DIR$/_site/2012/08/24/hexbins/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/08/30/nyc-and-nairobi-devs-connect/index.html" afterPath="$PROJECT_DIR$/_site/2012/08/30/nyc-and-nairobi-devs-connect/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/08/31/formhub-at-the-datadev-workshop/index.html" afterPath="$PROJECT_DIR$/_site/2012/08/31/formhub-at-the-datadev-workshop/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/09/05/ahora-formhub-esta-disponible-en-espanol/index.html" afterPath="$PROJECT_DIR$/_site/2012/09/05/ahora-formhub-esta-disponible-en-espanol/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/09/19/using-technology-for-education-sector-spatial-planning-case-study-from-ghana/index.html" afterPath="$PROJECT_DIR$/_site/2012/09/19/using-technology-for-education-sector-spatial-planning-case-study-from-ghana/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/10/10/formhub-facilitates-energy-planning-in-liberia/index.html" afterPath="$PROJECT_DIR$/_site/2012/10/10/formhub-facilitates-energy-planning-in-liberia/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/01/11/account-activity-log/index.html" afterPath="$PROJECT_DIR$/_site/2013/01/11/account-activity-log/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/01/15/formhub-users-guide/index.html" afterPath="$PROJECT_DIR$/_site/2013/01/15/formhub-users-guide/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/02/22/what-is-formhub-a-video/index.html" afterPath="$PROJECT_DIR$/_site/2013/02/22/what-is-formhub-a-video/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts.html" afterPath="$PROJECT_DIR$/posts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/posts.html" afterPath="$PROJECT_DIR$/_site/posts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/styles.css" afterPath="$PROJECT_DIR$/_site/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.formhub.org.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369308420339" ignored="false" />
     <file path="/blog.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369308795381" ignored="false" />
-    <file path="/index.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369332409975" ignored="false" />
-    <file path="/styles.css" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369329967934" ignored="false" />
+    <file path="/index.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369334204465" ignored="false" />
+    <file path="/styles.css" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369334136147" ignored="false" />
     <file path="/postmore.rb" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369315866790" ignored="false" />
     <file path="/post.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369332226078" ignored="false" />
     <file path="/posts.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369330851190" ignored="false" />
@@ -72,7 +45,7 @@
       <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="201" selection-start="84" selection-end="272" vertical-scroll-proportion="-1.2">
+            <state line="17" column="4" selection-start="568" selection-end="664" vertical-scroll-proportion="-3.4">
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -92,7 +65,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="38" selection-start="86" selection-end="86" vertical-scroll-proportion="0.17529215">
+            <state line="38" column="60" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.82489145">
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -101,70 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2012-10-10-formhub-facilitates-energy-planning-in-liberia.markdown" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2012-10-10-formhub-facilitates-energy-planning-in-liberia.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="813" selection-end="824" vertical-scroll-proportion="-7.2222223">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2011-10-20-google-docs-bootstrap-and-django.markdown" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2011-10-20-google-docs-bootstrap-and-django.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="11" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-10.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2011-12-05-data-gatherers-of-the-world-unite.markdown" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2011-12-05-data-gatherers-of-the-world-unite.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="3681" selection-end="3692" vertical-scroll-proportion="-15.555555">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2011-12-09-staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses.markdown" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2011-12-09-staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2012-09-19-using-technology-for-education-sector-spatial-planning-case-study-from-ghana.markdown" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2012-09-19-using-technology-for-education-sector-spatial-planning-case-study-from-ghana.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="11" selection-start="2104" selection-end="2104" vertical-scroll-proportion="-8.333333">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="-6.122449">
+            <state line="20" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="-3.8979592">
               <folding />
             </state>
           </provider>
@@ -173,7 +86,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="310" column="9" selection-start="4177" selection-end="4184" vertical-scroll-proportion="-146.12">
+            <state line="153" column="14" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-14.88">
               <folding />
             </state>
           </provider>
@@ -203,13 +116,13 @@
         <option value="$PROJECT_DIR$/_plugins/excerpt.rb" />
         <option value="$PROJECT_DIR$/_plugins/postmore.rb" />
         <option value="$PROJECT_DIR$/_posts/2012-10-10-formhub-facilitates-energy-planning-in-liberia.markdown" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/_posts/2011-10-20-google-docs-bootstrap-and-django.markdown" />
         <option value="$PROJECT_DIR$/_posts/2011-12-05-data-gatherers-of-the-world-unite.markdown" />
         <option value="$PROJECT_DIR$/posts.html" />
         <option value="$PROJECT_DIR$/_layouts/layout.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2012-09-19-using-technology-for-education-sector-spatial-planning-case-study-from-ghana.markdown" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -509,36 +422,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="-6.122449">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="-13.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="310" column="9" selection-start="4177" selection-end="4184" vertical-scroll-proportion="-146.12">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="201" selection-start="84" selection-end="272" vertical-scroll-proportion="-1.2">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2011-12-09-staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -569,9 +452,39 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="-3.8979592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="568" selection-end="664" vertical-scroll-proportion="-3.4">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="14" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-14.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="86" selection-end="86" vertical-scroll-proportion="0.17529215">
+        <state line="38" column="60" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.82489145">
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#!!top" expanded="true" />

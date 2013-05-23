@@ -141,6 +141,20 @@ a:focus {
     height: 30px;
 }
 
+#post-spacer {
+    width: 780px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    height: 0px;
+}
+
+
 #post {
   width: 650px;
   margin-top: 50px;
