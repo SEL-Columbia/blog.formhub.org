@@ -16,6 +16,8 @@ Writing good documentation quickly is a hard. Sphinx is great at auto-generating
 
 Or see it in action here: [http://formhub.org/syntax/](http://formhub.org/syntax/)
 
+<!--more-->
+
 Here are some tidbits I found interesting when making this tool:
 
   * Google Docs uses peculiar section IDs. Instead of using 'h.92ndqcrwx98v' I decided 'introduction' would make a prettier link.

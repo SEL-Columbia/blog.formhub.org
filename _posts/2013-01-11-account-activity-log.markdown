@@ -20,7 +20,10 @@ The activity list has these 4 columns:
 
 [![](/images/posts/2013/01/Screen-Shot-2013-01-15-at-10.35.58-PM.png)](/images/posts/2013/01/Screen-Shot-2013-01-15-at-10.35.58-PM.png)
 
+
 Initially, the list will display the most recent activity first, this sort order can be changed by clicking on the "Performed On" column header (or any of the other columns headers to sort by them).
+
+<!--more-->
 
 **Filtering the activity list**
 

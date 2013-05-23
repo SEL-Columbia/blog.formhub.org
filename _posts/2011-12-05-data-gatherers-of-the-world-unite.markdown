@@ -27,6 +27,9 @@ _See what we mean about readability? (Pictures are parts of xform and xlsform sp
 
 ![](https://lh5.googleusercontent.com/ynVVTqMxoV28vLMR0X1KNcQTSSYNLEQOyy3-U6OGMzkMIF-5oSER9IKjycLO8yv21f65FEkZsZ_e6n07-C6zpYZdz5yT-0eeSHsFYtjUF3s1aSazHJo)
 
+<!--more-->
+
+
 ## Shareable
 
 We built formhub around the idea of sharing forms. Sharing forms during survey design, the first point of need for sharing can be done using email and Google Docs. But once a survey is ready and published on formhub, we want to allow survey designers to share their data collection tools with the public or partners they collaborate with. One of the most exciting features on formhub will be this feature—to be able to share an XLSform (an excel file) which has been published as a survey. We don’t have this sharing feature ready yet, but its coming, and we couldn’t be more excited about building it.

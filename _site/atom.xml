@@ -4,7 +4,7 @@
  <title>formhub blog</title>
  <link href="http://blog.formhub.org/atom.xml" rel="self"/>
  <link href="http://blog.formhub.org/"/>
- <updated>2013-04-02T12:15:07+05:30</updated>
+ <updated>2013-05-23T21:10:49+03:00</updated>
  <id>http://blog.formhub.org</id>
  <author>
    <name>formhub blog</name>
@@ -14,7 +14,7 @@
  <entry>
    <title>What is formhub? A video.</title>
    <link href="http://blog.formhub.org/2013/02/22/what-is-formhub-a-video"/>
-   <updated>2013-02-22T19:38:35+05:30</updated>
+   <updated>2013-02-22T19:38:35+03:00</updated>
    <id>http://blog.formhub.org/2013/02/22/what-is-formhub-a-video</id>
    <content type="html">&lt;p&gt;Want to tell a friend what formhub is, but unable to give them a full demo? Maybe &lt;a href=&quot;http://www.youtube.com/watch?v=jqpmMpkIXSQ&quot;&gt;the following video&lt;/a&gt; will help!&lt;/p&gt;
 
@@ -26,7 +26,7 @@
  <entry>
    <title>formhub user's guide</title>
    <link href="http://blog.formhub.org/2013/01/15/formhub-users-guide"/>
-   <updated>2013-01-15T19:30:02+05:30</updated>
+   <updated>2013-01-15T19:30:02+03:00</updated>
    <id>http://blog.formhub.org/2013/01/15/formhub-users-guide</id>
    <content type="html">&lt;p&gt;We&amp;rsquo;re happy to release a new formhub User&amp;rsquo;s Guide that provides an introductory overview of some of the functionalities formhub provides.&lt;/p&gt;
 
@@ -40,7 +40,7 @@
  <entry>
    <title>Account activity log</title>
    <link href="http://blog.formhub.org/2013/01/11/account-activity-log"/>
-   <updated>2013-01-11T07:58:41+05:30</updated>
+   <updated>2013-01-11T07:58:41+03:00</updated>
    <id>http://blog.formhub.org/2013/01/11/account-activity-log</id>
    <content type="html">&lt;p&gt;Many data collection projects have strict research protocols on how data can be accessed or modified.  To help with with this, we&amp;rsquo;re excited to announce that we&amp;rsquo;ve added activity/audit logs to formhub.  This allows you to view what actions have been performed on your formhub account, by which user(s) and at what times. To access this log, click on the little arrow next to your username and select &amp;ldquo;Account Activity&amp;rdquo; from the list.&lt;/p&gt;
 
@@ -59,6 +59,9 @@
 &lt;p&gt;&lt;a href=&quot;/images/posts/2013/01/Screen-Shot-2013-01-15-at-10.35.58-PM.png&quot;&gt;&lt;img src=&quot;/images/posts/2013/01/Screen-Shot-2013-01-15-at-10.35.58-PM.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Initially, the list will display the most recent activity first, this sort order can be changed by clicking on the &amp;ldquo;Performed On&amp;rdquo; column header (or any of the other columns headers to sort by them).&lt;/p&gt;
+
+&lt;!--more--&gt;
+
 
 &lt;p&gt;&lt;strong&gt;Filtering the activity list&lt;/strong&gt;&lt;/p&gt;
 
@@ -103,12 +106,16 @@
  <entry>
    <title>Building Capacity for Energy Planning in Liberia with formhub</title>
    <link href="http://blog.formhub.org/2012/10/10/formhub-facilitates-energy-planning-in-liberia"/>
-   <updated>2012-10-10T02:42:44+05:30</updated>
+   <updated>2012-10-10T02:42:44+03:00</updated>
    <id>http://blog.formhub.org/2012/10/10/formhub-facilitates-energy-planning-in-liberia</id>
    <content type="html">&lt;p&gt;&lt;em&gt;By Jonathan Cabral, Stephane Keil and Edwin Adkins&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/posts/2012/10/Screen-Shot-2012-10-09-at-10.35.46-PM.png&quot;&gt;&lt;img src=&quot;/images/posts/2012/10/Screen-Shot-2012-10-09-at-10.35.46-PM.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;[/caption]
-As a part of an ongoing project to support the Liberian government in energy related data-gathering and planning, three members of the Modi Lab conducted a two-week training in Monrovia to prepare key energy and data specialists from Liberian government, the electric utility, and related energy organizations in the use of mobile rapid data-gathering tools to estimate the urban and rural energy demand in the country.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/posts/2012/10/Screen-Shot-2012-10-09-at-10.35.46-PM.png&quot;&gt;&lt;img src=&quot;/images/posts/2012/10/Screen-Shot-2012-10-09-at-10.35.46-PM.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As a part of an ongoing project to support the Liberian government in energy related data-gathering and planning, three members of the Modi Lab conducted a two-week training in Monrovia to prepare key energy and data specialists from Liberian government, the electric utility, and related energy organizations in the use of mobile rapid data-gathering tools to estimate the urban and rural energy demand in the country.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
 
 &lt;p&gt;After the end of the civil war in 2003, the Liberian power sector was largely destroyed, leaving less than 1% of Liberia’s population with access to grid electricity.  Most of the country’s population relies upon generation at home, independent power producers (IPP) providing electricity by wire from diesel generators, or, in some smaller cities, limited municipal mini-grids.  Access to modern energy will be a critical element if Liberia is to restart the process of economic and social development.  Since energy needs are urgent and development budgets are limited, an approach is needed that optimizes costs and allows planners to select and prioritize among different generation technologies (grid, solar and diesel, as well as hydro, where available).  Mobile data gathering tools can help to geo-locate homes, facilities, commercial and industrial sites, and IPPs – all of which help to quantify electricity demands and current supply.&lt;/p&gt;
 
@@ -139,15 +146,18 @@ As a part of an ongoing project to support the Liberian government in energy rel
  <entry>
    <title>Using Technology for Education Sector Spatial Planning: Case Study from Ghana  </title>
    <link href="http://blog.formhub.org/2012/09/19/using-technology-for-education-sector-spatial-planning-case-study-from-ghana"/>
-   <updated>2012-09-19T02:00:21+05:30</updated>
+   <updated>2012-09-19T02:00:21+03:00</updated>
    <id>http://blog.formhub.org/2012/09/19/using-technology-for-education-sector-spatial-planning-case-study-from-ghana</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Radhika Iyengar&lt;/em&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;/images/posts/2012/09/Screen-shot-2012-09-18-at-9.57.44-PM.png&quot;&gt;&lt;img src=&quot;/images/posts/2012/09/Screen-shot-2012-09-18-at-9.57.44-PM-1024x538.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;Picture this! I am in a rural District in India. I have been tasked to conduct a situation analysis of Education needs in the district. Sitting in the District Collectors Office (An officer who is in charge of the District’s functioning for all the Sectors). Where do I start? “I need a map of the district” I call out loudly. I am pointed out to a map behind the District Collector’s chair on the wall.  I begin to hand draw the map on a piece of paper.  The same day I leave with the District Education Officer in a Jeep and trying to follow the map. There seems to be some debate over the map (or my drawing) on the boundaries of the District.  Amidst much debate, I try to plot schools on the locations of the schools on the map. In a separate piece of paper, I quickly write down the name of the school and its needs (toilets (Y/N), water availability (Y/N) etc.). School after school I did this, however it is impossible to cover the district because there are more than 200 primary schools in the district that are all spread out.  In the rainy season, few schools are inaccessible due to bad roads and potholes. We come back and I begin searching through DISE (District Information Systems for Education) an online repository of all schools for the District (for the entire country). I begin searching the names of the schools in DISE to the ones that I visit. “There must be something wrong“ I say to myself. I couldn’t find two from the five schools I visited. “Did I write down the right name? “ maybe that school was in this district, but how is this possible?” are some of the thoughts in my head. In some cases the facility inventories did not match what I saw.&lt;/p&gt;
 
-&lt;p&gt;This is not an un-usual scenario for Education planners. However things have changed…all due to an innovative use of technology. In my recent visit to an MVP site in Ghana at Bolgatanga. The MVP had recently completed a basic school inventory of all schools in the MVP defined cluster. This survey was conducted using android phones that did not involve data entry at all.  The survey included some of the basic information needed for Education planning such as –water and sanitation, furniture, teacher and teacher training, number of students enrolled etc. Along with this a GPS location of each school and photo of the school was uploaded onto to the server using phones. The data was processed and displayed on maps with school points and a pull down menu of the characteristics of the schools.  This detailed data removed the guess work involved and the anecdotal evidence that an Education planner has to most often rely on.  The snapshots of the MVP cluster maps are given below.&lt;/p&gt;
+&lt;!--more--&gt;
 
-&lt;p&gt;&lt;a href=&quot;/images/posts/2012/09/Screen-shot-2012-09-18-at-9.57.44-PM.png&quot;&gt;&lt;img src=&quot;/images/posts/2012/09/Screen-shot-2012-09-18-at-9.57.44-PM-1024x538.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is not an un-usual scenario for Education planners. However things have changed…all due to an innovative use of technology. In my recent visit to an MVP site in Ghana at Bolgatanga. The MVP had recently completed a basic school inventory of all schools in the MVP defined cluster. This survey was conducted using android phones that did not involve data entry at all.  The survey included some of the basic information needed for Education planning such as –water and sanitation, furniture, teacher and teacher training, number of students enrolled etc. Along with this a GPS location of each school and photo of the school was uploaded onto to the server using phones. The data was processed and displayed on maps with school points and a pull down menu of the characteristics of the schools.  This detailed data removed the guess work involved and the anecdotal evidence that an Education planner has to most often rely on.  The snapshots of the MVP cluster maps are given below.&lt;/p&gt;
 
 &lt;p&gt;We followed the route (in brown) and saw the schools, had an excel sheet with all the data points for the particular schools. The excel sheet with the data points helped to categorize how many schools needed a lot of investments, how many schools needed moderate investments and how many schools needed very little investments, based on the categories that were recorded. However the data in the excel sheet for each school did not give a sense of the need or the coverage of the cluster. The maps were helpful to see the coverage of area with school facilities and the excel sheets with updated data was able to inform the magnitude of the needs. The maps also had population clusters to inform whether a densely populated cluster or village had a school within the proximity.  In a quick look, we were able to see if the population clusters had atleast one school in the cluster. The maps are also useful to observe the coverage of the cluster, therefore maps was useful to tell us if there is a part of the cluster where there are no schools located. In terms of planning, we could assess if there pockets of population where maybe a Kindergarten classes need to be established since the nearest school is more than 4-5 km away. Maps also become a useful platform to engage in discussions with the District Education Office and ask them (without anecdotes) on what visible gaps they can fill and how can MVP supplement. We were able to put all sorts of planning notes on the maps itself to be able to internally discuss with the MVP data team and the Education Sector staff on some data that had to be validated.  At the end of our discussions a round of data validation round was proposed for some specific schools. As for the Education Sector planning, the maps and data helped us to better understand the scope of the Education needs in the cluster and prepare our budgets accordingly.&lt;/p&gt;
 
@@ -158,7 +168,7 @@ As a part of an ongoing project to support the Liberian government in energy rel
  <entry>
    <title>Ahora formhub esta disponible en Español!</title>
    <link href="http://blog.formhub.org/2012/09/05/ahora-formhub-esta-disponible-en-espanol"/>
-   <updated>2012-09-05T16:33:13+05:30</updated>
+   <updated>2012-09-05T16:33:13+03:00</updated>
    <id>http://blog.formhub.org/2012/09/05/ahora-formhub-esta-disponible-en-espanol</id>
    <content type="html">&lt;p&gt;Hemos estado trabajando arduamente en la traducción de nuestra plataforma para la recolección de datos con tecnología móvil a otros idiomas. En formhub creemos firmemente en la cooperación y diseminación gratuita del conocimiento y las herramientas productivas, es muy importante para nosotros que el idioma no sea una barrera para adoptar nuestra tecnología. Existen 500 millones de hispanohablantes nativos en el mundo y es el tercer idioma con mayor numero de hablantes (detrás del Ingles y el Mandarín),  formhub no estaría completo sin los “formhubbers” (termino para designar a los usuarios de formhub) de habla hispana.  formhub ya soportaba la creación de encuestas en múltiples lenguajes usando las capacidades de los teléfonos inteligentes Android, con esta adición nos acercamos a ser completamente multilingües! Esperamos disfrute del sitio en español y le pedimos de favor que nos ayude a mejorar la traducción. Y muy pronto tendremos Formhub traducido al Chino!&lt;/p&gt;
 
@@ -175,7 +185,7 @@ As a part of an ongoing project to support the Liberian government in energy rel
  <entry>
    <title>formhub at the DataDev Workshop</title>
    <link href="http://blog.formhub.org/2012/08/31/formhub-at-the-datadev-workshop"/>
-   <updated>2012-08-31T04:00:51+05:30</updated>
+   <updated>2012-08-31T04:00:51+03:00</updated>
    <id>http://blog.formhub.org/2012/08/31/formhub-at-the-datadev-workshop</id>
    <content type="html">&lt;p&gt;On July 23rd and 24th we presented a poster on &lt;a href=&quot;https://formhub.org/&quot;&gt;formhub&lt;/a&gt; at the DataDev workshop and participated in the Systems for Mobile Data Collection panel.  The workshop was held during the IEEE Mobile Data Management (MDM 2012) conference in Bangalore India.  Shown below is the poster that we presented.&lt;/p&gt;
 
@@ -198,7 +208,7 @@ As a part of an ongoing project to support the Liberian government in energy rel
  <entry>
    <title>NYC and Nairobi devs connect</title>
    <link href="http://blog.formhub.org/2012/08/30/nyc-and-nairobi-devs-connect"/>
-   <updated>2012-08-30T23:40:27+05:30</updated>
+   <updated>2012-08-30T23:40:27+03:00</updated>
    <id>http://blog.formhub.org/2012/08/30/nyc-and-nairobi-devs-connect</id>
    <content type="html">&lt;p&gt;The majority of recent formhub programming has been performed by the development team in Nairobi.  For two weeks in July, part of the New York City formhub development team got a chance to work with the team in Nairobi.  We learned about all the recent additions to formhub from a technical perspective, set some priorities for the future, and &amp;mdash;&amp;ndash; of course &amp;mdash;&amp;ndash; did some coding.&lt;/p&gt;
 
@@ -221,7 +231,7 @@ As a part of an ongoing project to support the Liberian government in energy rel
  <entry>
    <title>Hexbins!</title>
    <link href="http://blog.formhub.org/2012/08/24/hexbins"/>
-   <updated>2012-08-24T19:28:03+05:30</updated>
+   <updated>2012-08-24T19:28:03+03:00</updated>
    <id>http://blog.formhub.org/2012/08/24/hexbins</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Prabhas Pokharel&lt;/em&gt;&lt;/p&gt;
 
@@ -257,7 +267,7 @@ As a part of an ongoing project to support the Liberian government in energy rel
  <entry>
    <title>New in formhub...</title>
    <link href="http://blog.formhub.org/2012/08/17/new-in-formhub"/>
-   <updated>2012-08-17T20:49:41+05:30</updated>
+   <updated>2012-08-17T20:49:41+03:00</updated>
    <id>http://blog.formhub.org/2012/08/17/new-in-formhub</id>
    <content type="html">&lt;p&gt;At formhub, we don&amp;rsquo;t have versioned releases. Instead, we follow the &amp;ldquo;&lt;a href=&quot;http://en.wikipedia.org/wiki/Continuous_integration&quot;&gt;continuous integration/deployment&lt;/a&gt;&amp;rdquo; model. While we deploy updates &lt;a href=&quot;http://timothyfitz.wordpress.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/&quot;&gt;nearly as frequently as some&lt;/a&gt;, we do push updates quite frequently; often more than once a day. This makes the standard announcement of features per release a little tougher, so I&amp;rsquo;ve tried to start a &amp;ldquo;new in formhub&amp;rdquo; post per week over at &lt;a href=&quot;https://groups.google.com/group/formhub-users&quot;&gt;formhub-users&lt;/a&gt;. Here are the last two:&lt;/p&gt;
 
@@ -287,7 +297,7 @@ As a part of an ongoing project to support the Liberian government in energy rel
  <entry>
    <title>Posting To External Site</title>
    <link href="http://blog.formhub.org/2012/08/06/posting-to-external-site"/>
-   <updated>2012-08-06T13:41:07+05:30</updated>
+   <updated>2012-08-06T13:41:07+03:00</updated>
    <id>http://blog.formhub.org/2012/08/06/posting-to-external-site</id>
    <content type="html">&lt;p&gt;We&amp;rsquo;ve recently worked on a new feature that allows you to have data submissions to a form be pushed to an external site. Currently you can get json and xml data submissions posted to a rest service that can consume it. You may have noticed a new section &lt;strong&gt;&lt;em&gt;Rest Services &lt;/em&gt;&lt;/strong&gt;in the form view. To learn how to make use of these new feature, visit the formhub.org wiki on &lt;a href=&quot;https://github.com/modilabs/formhub/wiki/Posting-To-External-Site&quot;&gt;https://github.com/modilabs/formhub/wiki/Posting-To-External-Site&lt;/a&gt;.&lt;/p&gt;
 </content>
@@ -296,7 +306,7 @@ As a part of an ongoing project to support the Liberian government in energy rel
  <entry>
    <title>Cascading Selects</title>
    <link href="http://blog.formhub.org/2012/07/19/cascading-selects"/>
-   <updated>2012-07-19T04:50:29+05:30</updated>
+   <updated>2012-07-19T04:50:29+03:00</updated>
    <id>http://blog.formhub.org/2012/07/19/cascading-selects</id>
    <content type="html">&lt;p&gt;Within the &lt;a href=&quot;http://modi.mech.columbia.edu&quot;&gt;Modi Research Group&lt;/a&gt; (informally known as modilabs), we are constantly creating new ways to improve the xlsform-based data collection process. Sometimes we are so busy thinking of new things and implementing them that we don&amp;rsquo;t even announce some of the features we have introduced to make data collection simpler and easier. This time around, I want to talk about cascading-selects, a feature that we introduced into xlsform / formhub a couple of months ago, and which intrepid user Nikolai has dug up and &lt;a href=&quot;https://groups.google.com/d/topic/opendatakit/JHAbgh1kKOs/discussion&quot;&gt;started spreading&lt;/a&gt; around (thanks Nik for forcing us to write this blog post :).&lt;/p&gt;
 
@@ -434,7 +444,7 @@ As a part of an ongoing project to support the Liberian government in energy rel
  <entry>
    <title>formhub.org in a presentation</title>
    <link href="http://blog.formhub.org/2012/05/08/formhub-org-in-a-presentation"/>
-   <updated>2012-05-08T17:25:30+05:30</updated>
+   <updated>2012-05-08T17:25:30+03:00</updated>
    <id>http://blog.formhub.org/2012/05/08/formhub-org-in-a-presentation</id>
    <content type="html">&lt;p&gt;Last week, colleagues at the Modi Research Group and I presented the following slides to the MVP (Millennium Villages Project) Colloquium. We wanted to share the presentation with a larger group of formhub.org users, in case you didn&amp;rsquo;t know about some of the features that we have in formhub.org (which are covered in the &amp;ldquo;Beyond the Basics&amp;rdquo; section) and so you know about some of what we are planning for the future of formhub.org and other tools.&lt;/p&gt;
 
@@ -447,7 +457,7 @@ As a part of an ongoing project to support the Liberian government in energy rel
  <entry>
    <title>New Insights from your formhub map</title>
    <link href="http://blog.formhub.org/2012/04/09/new-insights-from-your-formhub-map"/>
-   <updated>2012-04-09T16:48:23+05:30</updated>
+   <updated>2012-04-09T16:48:23+03:00</updated>
    <id>http://blog.formhub.org/2012/04/09/new-insights-from-your-formhub-map</id>
    <content type="html">&lt;p&gt;formhub is designed to make data collection simple and collaborative. But data collection is only a means&amp;hellip; the end goal is gaining insights from data. While formhub cannot provide the rich variety of analysis needed for every dataset, we have been recently been working on features that should give formhub users some basic and rapid insights about data as soon as it is collected.&lt;/p&gt;
 
@@ -484,7 +494,7 @@ Right now, this feature is enabled for &amp;ldquo;select one&amp;rdquo; question
  <entry>
    <title>A new xlsform engine, new documentation, and more!</title>
    <link href="http://blog.formhub.org/2012/02/23/a-new-xlsform-engine-new-documentation-and-more"/>
-   <updated>2012-02-23T22:28:03+05:30</updated>
+   <updated>2012-02-23T22:28:03+03:00</updated>
    <id>http://blog.formhub.org/2012/02/23/a-new-xlsform-engine-new-documentation-and-more</id>
    <content type="html">&lt;p&gt;We have been developing on formhub continuously over the past few months, and a couple of weeks ago upgraded the xlsform engine that formhub uses. Along with the new engine, we have also updated formhub documentation and have established a formhub account called &lt;a href=&quot;https://formhub.org/formhub_u&quot;&gt;formhub University&lt;/a&gt; where you can learn how to make xlsforms to do the kind of data collection you need!&lt;/p&gt;
 
@@ -538,7 +548,7 @@ All ODK 1.1.7 widgets can now be created using the xlsform language. See the &am
  <entry>
    <title>New licensing options available both for forms and data</title>
    <link href="http://blog.formhub.org/2012/01/31/form-data-licensing"/>
-   <updated>2012-01-31T07:10:20+05:30</updated>
+   <updated>2012-01-31T07:10:20+03:00</updated>
    <id>http://blog.formhub.org/2012/01/31/form-data-licensing</id>
    <content type="html">&lt;p&gt;One of the reasons we&amp;rsquo;re excited about formhub is that it provides the opportunity to help educate people on best practices regarding both content and data sharing.&lt;/p&gt;
 
@@ -570,7 +580,7 @@ All ODK 1.1.7 widgets can now be created using the xlsform language. See the &am
  <entry>
    <title>New Features! Making data collection more collaborative and social</title>
    <link href="http://blog.formhub.org/2012/01/29/formhub-now-social"/>
-   <updated>2012-01-29T15:26:44+05:30</updated>
+   <updated>2012-01-29T15:26:44+03:00</updated>
    <id>http://blog.formhub.org/2012/01/29/formhub-now-social</id>
    <content type="html">&lt;p&gt;We&amp;rsquo;re excited to announce the release of a major new set of features to formhub.  With these updates, we have not only made mobile data collection even easier, but we&amp;rsquo;ve started to introduce the elements that will make data collection more collaborative and even social.  Namely, with formhub you can now easily share forms and publish data.&lt;/p&gt;
 
@@ -624,7 +634,7 @@ All ODK 1.1.7 widgets can now be created using the xlsform language. See the &am
  <entry>
    <title>Staying Even - How to use formhub and ODK Collect to track your travel expenses</title>
    <link href="http://blog.formhub.org/2011/12/09/staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses"/>
-   <updated>2011-12-09T23:56:37+05:30</updated>
+   <updated>2011-12-09T23:56:37+03:00</updated>
    <id>http://blog.formhub.org/2011/12/09/staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses</id>
    <content type="html">&lt;p&gt;I travel a LOT and like most people who do struggle to keep track of my reimbursable travel expenses. My memory blurs between trips and I forget about all the cab rides where I don&amp;rsquo;t bother to get a receipt.  As a result, whenever, I get around to finally filing an expense report (the bane of my existence) it usually consists of the big ticket items with receipts that didn’t erase themselves.  Long story short, the cost of me being lazy and unorganized adds up.
 &lt;a href=&quot;/images/posts/2011/12/Screen-Shot-2011-12-09-at-6.49.17-PM.png&quot;&gt;&lt;img src=&quot;/images/posts/2011/12/Screen-Shot-2011-12-09-at-6.49.17-PM.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -653,7 +663,7 @@ All ODK 1.1.7 widgets can now be created using the xlsform language. See the &am
  <entry>
    <title>Data Gatherers of the World Unite!</title>
    <link href="http://blog.formhub.org/2011/12/05/data-gatherers-of-the-world-unite"/>
-   <updated>2011-12-05T13:55:23+05:30</updated>
+   <updated>2011-12-05T13:55:23+03:00</updated>
    <id>http://blog.formhub.org/2011/12/05/data-gatherers-of-the-world-unite</id>
    <content type="html">&lt;p&gt;We are really excited to announce the beta release of &lt;a href=&quot;http://formhub.org&quot;&gt;formhub&lt;/a&gt;, a service for making data collection &lt;strong&gt;simpler&lt;/strong&gt; and &lt;strong&gt;more collaborative&lt;/strong&gt;. Great projects like the Open Data Kit (ODK) project have provided us with very simple tools to collect data, but the process of authoring surveys and going from survey specification to data has always been cumbersome, and accessible only to highly technical users. formhub aims to make the whole data collection process simpler and more collaborative.&lt;/p&gt;
 
@@ -674,6 +684,9 @@ All ODK 1.1.7 widgets can now be created using the xlsform language. See the &am
 &lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/Rf7ZectmEC51EVsNfMyhIPyuhytE07PnITBdLxvwb1wEkFSUSoYgNP3OO6439Ho7-qS1WdmFEjY2l-DwmzAW_YUn34yg1dt1rowCnoTQXmV7kuxVH5I&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/ynVVTqMxoV28vLMR0X1KNcQTSSYNLEQOyy3-U6OGMzkMIF-5oSER9IKjycLO8yv21f65FEkZsZ_e6n07-C6zpYZdz5yT-0eeSHsFYtjUF3s1aSazHJo&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
 
 &lt;h2&gt;Shareable&lt;/h2&gt;
 
@@ -738,7 +751,7 @@ The underlying code for formhub is&lt;a href=&quot;http://github.com/modilabs/fo
  <entry>
    <title>Google Docs, Bootstrap, and Django</title>
    <link href="http://blog.formhub.org/2011/10/20/google-docs-bootstrap-and-django"/>
-   <updated>2011-10-20T14:21:49+05:30</updated>
+   <updated>2011-10-20T14:21:49+03:00</updated>
    <id>http://blog.formhub.org/2011/10/20/google-docs-bootstrap-and-django</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Andrew Marder&lt;/em&gt;&lt;/p&gt;
 
@@ -747,6 +760,9 @@ The underlying code for formhub is&lt;a href=&quot;http://github.com/modilabs/fo
 &lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/pub?id=1Dze4IZGr0IoIFuFAI_ohKR5mYUt4IAn5Y-uCJmnv1FQ#h.92ndqcrwx98v&quot;&gt;&lt;img src=&quot;https://github.com/modilabs/formhub/wiki/images/input.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;img src=&quot;https://github.com/modilabs/formhub/wiki/images/output.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Or see it in action here: &lt;a href=&quot;http://formhub.org/syntax/&quot;&gt;http://formhub.org/syntax/&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
 
 &lt;p&gt;Here are some tidbits I found interesting when making this tool:&lt;/p&gt;
 

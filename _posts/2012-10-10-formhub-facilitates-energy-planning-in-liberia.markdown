@@ -8,8 +8,10 @@ wordpress_id: 244
 ---
 _By Jonathan Cabral, Stephane Keil and Edwin Adkins_
 
-[![](/images/posts/2012/10/Screen-Shot-2012-10-09-at-10.35.46-PM.png)](/images/posts/2012/10/Screen-Shot-2012-10-09-at-10.35.46-PM.png)[/caption]
+[![](/images/posts/2012/10/Screen-Shot-2012-10-09-at-10.35.46-PM.png)](/images/posts/2012/10/Screen-Shot-2012-10-09-at-10.35.46-PM.png)
+
 As a part of an ongoing project to support the Liberian government in energy related data-gathering and planning, three members of the Modi Lab conducted a two-week training in Monrovia to prepare key energy and data specialists from Liberian government, the electric utility, and related energy organizations in the use of mobile rapid data-gathering tools to estimate the urban and rural energy demand in the country.
+<!--more-->
 
 After the end of the civil war in 2003, the Liberian power sector was largely destroyed, leaving less than 1% of Liberia’s population with access to grid electricity.  Most of the country’s population relies upon generation at home, independent power producers (IPP) providing electricity by wire from diesel generators, or, in some smaller cities, limited municipal mini-grids.  Access to modern energy will be a critical element if Liberia is to restart the process of economic and social development.  Since energy needs are urgent and development budgets are limited, an approach is needed that optimizes costs and allows planners to select and prioritize among different generation technologies (grid, solar and diesel, as well as hydro, where available).  Mobile data gathering tools can help to geo-locate homes, facilities, commercial and industrial sites, and IPPs – all of which help to quantify electricity demands and current supply.
 
