@@ -27,6 +27,32 @@
     
     <div id="post">
         <div id="postwrap">
+            <span style="margin-left: 610px;"><a href="https://twitter.com/intent/tweet?text=MapBox Cloudless Atlas comes to formhub!&url=http://blog.formhub.org//2013/05/30/mapbox-cloudless-earth"><i class="icon-twitter icon-large"></i></a></span>
+            <div class="question"><a href="/2013/05/30/mapbox-cloudless-earth">MapBox Cloudless Atlas comes to formhub!</a></div>
+            <div class="postdate"><span class=boldallcaps> 05 May 2013</span></div>
+            <div class="answer">
+                <p><a href="http://www.flickr.com/photos/mberg/8889728802/"><img src="http://farm4.staticflickr.com/3721/8889728802_cf50af5310_b.jpg" alt="" /></a></p>
+
+<p>Leveraging publically available satelitte imagery, <a href="http://mapbox.com">MapBox</a> recently released a stunning new satellite map that is <a href="http://www.mapbox.com/blog/improving-mapbox-satellite-by-making-clouds-disappear/">cloudless</a>.  Yes, you heard us right. Cloudless!</p>
+
+<p>To do this, they basically went through archives of satelitte imagery and on a pixel-by-pixel basis assembled a map that is essentially cloud free.</p>
+
+<p>Starting today we are excited to offer MapBox Cloudless Atlas as one of the core basemaps avaiable on formhub. This joins the existing MapBox Streets base layers &ndash; Open Street Map powered
+and available in English, French and Spanish.</p>
+
+<p>Since formhub is used extensively by many groups for mapping. We hope this new, clearer picture of the world will help extra insight to your data.</p>
+
+<p><a href="http://www.flickr.com/photos/mberg/8889347622/"><img src="http://farm4.staticflickr.com/3796/8889347622_86db4262eb_b.jpg" alt="" /></a></p>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+    <div id="post">
+        <div id="postwrap">
             <span style="margin-left: 610px;"><a href="https://twitter.com/intent/tweet?text=What is formhub? A video.&url=http://blog.formhub.org//2013/02/22/what-is-formhub-a-video"><i class="icon-twitter icon-large"></i></a></span>
             <div class="question"><a href="/2013/02/22/what-is-formhub-a-video">What is formhub? A video.</a></div>
             <div class="postdate"><span class=boldallcaps> 02 February 2013</span></div>
@@ -256,42 +282,6 @@
 <p>The caveat here is that a deep blue hexagonal bin may represent an area where the only water point is non-functional, or an area where 10 out of 10 water points are non-functional. We made the default coloration proportion rather than count because we think that is more important and hard to derive; we&rsquo;ll add a toggle to color hex bins by &lsquo;the number of non-functional water points in an area&rsquo; when we redesign the map page in the early fall.</p>
 
 <p>Let us know what you think of this feature either here in the comments or on the <a href="https://groups.google.com/forum/?fromgroups#!forum/formhub-users">formhub-users mailing list</a>, particularly if you come up with interesting uses or insights from the feature. And thanks to github user <a href="http://github.com/indiemaps">@indiemaps</a> for contributing <a href="https://github.com/indiemaps/hexbin-js/">the javascript library</a> that performs much of the heavy lifting for this feature.</p>
-
-            </div>
-        </div>
-    </div>
-    
-
-
-    
-    <div id="post">
-        <div id="postwrap">
-            <span style="margin-left: 610px;"><a href="https://twitter.com/intent/tweet?text=New in formhub...&url=http://blog.formhub.org//2012/08/17/new-in-formhub"><i class="icon-twitter icon-large"></i></a></span>
-            <div class="question"><a href="/2012/08/17/new-in-formhub">New in formhub...</a></div>
-            <div class="postdate"><span class=boldallcaps> 08 August 2012</span></div>
-            <div class="answer">
-                <p>At formhub, we don&rsquo;t have versioned releases. Instead, we follow the &ldquo;<a href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration/deployment</a>&rdquo; model. While we deploy updates <a href="http://timothyfitz.wordpress.com/2009/02/10/continuous-deployment-at-imvu-doing-the-impossible-fifty-times-a-day/">nearly as frequently as some</a>, we do push updates quite frequently; often more than once a day. This makes the standard announcement of features per release a little tougher, so I&rsquo;ve tried to start a &ldquo;new in formhub&rdquo; post per week over at <a href="https://groups.google.com/group/formhub-users">formhub-users</a>. Here are the last two:</p>
-
-<p><em><strong>Posted on Friday, August 17:</strong></em></p>
-
-<ul>
-<li>formhub now serves up the media you upload to it properly to ODK collect. For those of your working with media in your forms, the process should become much more seamless now. Check out the <a href="http://formhub.org/formhub_u/forms/Birds">Birds form on formhub_u</a> to see how this works. (adapted from the odk forms <a href="https://code.google.com/p/opendatakit/source/browse/?repo=forms">repo</a>) </li>
-<li>A new header and other stylistic changes. We have begun a process of the UI revamp on formhub, and a new header, typography, and other stylistic changes were pushed up this week. Hope you like them!</li>
-<li>Leaflet upgrade. We upgraded the mapping library we use, leaflet.js to <a href="http://leaflet.cloudmade.com/2012/07/30/leaflet-0-4-released.html">0.4</a>. You may notice a few little changes on the map, like a smoother zoom.</li>
-<li>IE 0.9 fix. During the addition of google satellites, we accidentally broke the map view for IE 0.9 users. That has been fixed.</li>
-<li>Data posts to bamboo as they come into formhub working. This will sound cryptic to most. But once our web-data-analysis engine bamboo is released, this feature (continuous updates) will make many of you happier :)</li>
-</ul>
-
-
-<p><em><strong>Posted on Friday, August 10:</strong></em></p>
-
-<ul>
-<li>formhub can now update an external webservice with data as data is submitted to formhub (see <a href="http://blog.formhub.org/2012/08/06/posting-to-external-site/">the blogpost</a> for details)</li>
-<li>Google Satellite Maps are now available as a background on the map view</li>
-<li>formhub&rsquo;s xlsform engine now has a &ldquo;hidden&rdquo; field (which only takes a &ldquo;name&rdquo;) which outputs a bind element, and  a space in the instance, but nothing in the body &mdash; this was added for those using formhub as an xform-generation engine to produce xforms for commcare, which makes use of these &lsquo;hidden&rsquo; fields to load case data</li>
-<li>i18n support: formhub now has the infrastructure to support site-wide translations. Those with their <a href="http://www.w3.org/International/questions/qa-lang-priorities.en.php">browser locale settings</a> set to French should already see quite a bit of the site translated.</li>
-</ul>
-
 
             </div>
         </div>

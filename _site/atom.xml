@@ -4,12 +4,32 @@
  <title>formhub blog</title>
  <link href="http://blog.formhub.org/atom.xml" rel="self"/>
  <link href="http://blog.formhub.org/"/>
- <updated>2013-05-30T13:56:54+03:00</updated>
+ <updated>2013-05-30T14:53:45+03:00</updated>
  <id>http://blog.formhub.org</id>
  <author>
    <name>formhub blog</name>
  </author>
  
+ 
+ <entry>
+   <title>MapBox Cloudless Atlas comes to formhub!</title>
+   <link href="http://blog.formhub.org/2013/05/30/mapbox-cloudless-earth"/>
+   <updated>2013-05-30T14:05:35+03:00</updated>
+   <id>http://blog.formhub.org/2013/05/30/mapbox-cloudless-earth</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/mberg/8889728802/&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3721/8889728802_cf50af5310_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Leveraging publically available satelitte imagery, &lt;a href=&quot;http://mapbox.com&quot;&gt;MapBox&lt;/a&gt; recently released a stunning new satellite map that is &lt;a href=&quot;http://www.mapbox.com/blog/improving-mapbox-satellite-by-making-clouds-disappear/&quot;&gt;cloudless&lt;/a&gt;.  Yes, you heard us right. Cloudless!&lt;/p&gt;
+
+&lt;p&gt;To do this, they basically went through archives of satelitte imagery and on a pixel-by-pixel basis assembled a map that is essentially cloud free.&lt;/p&gt;
+
+&lt;p&gt;Starting today we are excited to offer MapBox Cloudless Atlas as one of the core basemaps avaiable on formhub. This joins the existing MapBox Streets base layers &amp;ndash; Open Street Map powered
+and available in English, French and Spanish.&lt;/p&gt;
+
+&lt;p&gt;Since formhub is used extensively by many groups for mapping. We hope this new, clearer picture of the world will help extra insight to your data.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/mberg/8889347622/&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3796/8889347622_86db4262eb_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>What is formhub? A video.</title>
