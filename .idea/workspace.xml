@@ -2,26 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b057cc4-9e2e-43f8-995a-c88553478869" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/post_photo_header.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_plugins/excerpt.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_plugins/postmore.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_site/about.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/styles.css" afterPath="$PROJECT_DIR$/_site/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2011/10/20/google-docs-bootstrap-and-django/index.html" afterPath="$PROJECT_DIR$/_site/2011/10/20/google-docs-bootstrap-and-django/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2011/12/05/data-gatherers-of-the-world-unite/index.html" afterPath="$PROJECT_DIR$/_site/2011/12/05/data-gatherers-of-the-world-unite/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2011/12/09/staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses/index.html" afterPath="$PROJECT_DIR$/_site/2011/12/09/staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/01/29/formhub-now-social/index.html" afterPath="$PROJECT_DIR$/_site/2012/01/29/formhub-now-social/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/01/31/form-data-licensing/index.html" afterPath="$PROJECT_DIR$/_site/2012/01/31/form-data-licensing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/02/23/a-new-xlsform-engine-new-documentation-and-more/index.html" afterPath="$PROJECT_DIR$/_site/2012/02/23/a-new-xlsform-engine-new-documentation-and-more/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/04/09/new-insights-from-your-formhub-map/index.html" afterPath="$PROJECT_DIR$/_site/2012/04/09/new-insights-from-your-formhub-map/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/05/08/formhub-org-in-a-presentation/index.html" afterPath="$PROJECT_DIR$/_site/2012/05/08/formhub-org-in-a-presentation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/07/19/cascading-selects/index.html" afterPath="$PROJECT_DIR$/_site/2012/07/19/cascading-selects/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/08/06/posting-to-external-site/index.html" afterPath="$PROJECT_DIR$/_site/2012/08/06/posting-to-external-site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/08/17/new-in-formhub/index.html" afterPath="$PROJECT_DIR$/_site/2012/08/17/new-in-formhub/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/08/24/hexbins/index.html" afterPath="$PROJECT_DIR$/_site/2012/08/24/hexbins/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/08/30/nyc-and-nairobi-devs-connect/index.html" afterPath="$PROJECT_DIR$/_site/2012/08/30/nyc-and-nairobi-devs-connect/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/08/31/formhub-at-the-datadev-workshop/index.html" afterPath="$PROJECT_DIR$/_site/2012/08/31/formhub-at-the-datadev-workshop/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/09/05/ahora-formhub-esta-disponible-en-espanol/index.html" afterPath="$PROJECT_DIR$/_site/2012/09/05/ahora-formhub-esta-disponible-en-espanol/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/09/19/using-technology-for-education-sector-spatial-planning-case-study-from-ghana/index.html" afterPath="$PROJECT_DIR$/_site/2012/09/19/using-technology-for-education-sector-spatial-planning-case-study-from-ghana/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2012/10/10/formhub-facilitates-energy-planning-in-liberia/index.html" afterPath="$PROJECT_DIR$/_site/2012/10/10/formhub-facilitates-energy-planning-in-liberia/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/01/11/account-activity-log/index.html" afterPath="$PROJECT_DIR$/_site/2013/01/11/account-activity-log/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/01/15/formhub-users-guide/index.html" afterPath="$PROJECT_DIR$/_site/2013/01/15/formhub-users-guide/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2013/02/22/what-is-formhub-a-video/index.html" afterPath="$PROJECT_DIR$/_site/2013/02/22/what-is-formhub-a-video/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/layout.html" afterPath="$PROJECT_DIR$/_layouts/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/posts.html" afterPath="$PROJECT_DIR$/_site/posts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.formhub.org.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369308420339" ignored="false" />
+    <file path="/Dummy.txt" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369911114960" ignored="false" />
     <file path="/blog.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369308795381" ignored="false" />
-    <file path="/index.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369334204465" ignored="false" />
+    <file path="/index.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369911151487" ignored="false" />
     <file path="/styles.css" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369334136147" ignored="false" />
     <file path="/postmore.rb" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369315866790" ignored="false" />
     <file path="/post.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369332226078" ignored="false" />
     <file path="/posts.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369330851190" ignored="false" />
-    <file path="/layout.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369331209839" ignored="false" />
+    <file path="/layout.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369911336959" ignored="false" />
     <file path="/2012-09-19-using-technology-for-education-sector-spatial-planning-case-study-from-ghana.markdown" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369332524621" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +66,16 @@
       <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="4" selection-start="568" selection-end="664" vertical-scroll-proportion="-3.4">
+            <state line="19" column="0" selection-start="0" selection-end="666" vertical-scroll-proportion="-11.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_photo_header.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/post_photo_header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.4266467">
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -56,16 +86,16 @@
       <file leaf-file-name="posts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/posts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="-13.75">
+            <state line="22" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="60" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.82489145">
+            <state line="41" column="0" selection-start="0" selection-end="1551" vertical-scroll-proportion="-25.625">
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -77,7 +107,19 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="-3.8979592">
+            <state line="18" column="13" selection-start="627" selection-end="627" vertical-scroll-proportion="-11.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2011-10-20-google-docs-bootstrap-and-django.markdown" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2011-10-20-google-docs-bootstrap-and-django.markdown">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="11" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -86,7 +128,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="14" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-14.88">
+            <state line="153" column="14" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,11 +161,12 @@
         <option value="$PROJECT_DIR$/_posts/2011-10-20-google-docs-bootstrap-and-django.markdown" />
         <option value="$PROJECT_DIR$/_posts/2011-12-05-data-gatherers-of-the-world-unite.markdown" />
         <option value="$PROJECT_DIR$/posts.html" />
-        <option value="$PROJECT_DIR$/_layouts/layout.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2012-09-19-using-technology-for-education-sector-spatial-planning-case-study-from-ghana.markdown" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_layouts/layout.html" />
+        <option value="$PROJECT_DIR$/_layouts/post_photo_header.html" />
       </list>
     </option>
   </component>
@@ -241,8 +284,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="Errors" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -255,7 +298,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -272,13 +315,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30839804" sideWeight="0.9669312" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30839804" sideWeight="0.9669312" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -286,11 +329,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -354,140 +397,119 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2012-09-05-ahora-formhub-esta-disponible-en-espanol.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2013-01-11-account-activity-log.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="89" selection-start="912" selection-end="912" vertical-scroll-proportion="-10.555555">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="89" selection-start="912" selection-end="912" vertical-scroll-proportion="-10.555555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/blank">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="152" selection-start="3103" selection-end="3103" vertical-scroll-proportion="-9.090909">
-          <folding />
-        </state>
+        <state line="133" column="152" selection-start="3103" selection-end="3103" vertical-scroll-proportion="-9.090909" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="9" selection-start="4584" selection-end="4587" vertical-scroll-proportion="-117.0">
-          <folding />
-        </state>
+        <state line="195" column="9" selection-start="4584" selection-end="4587" vertical-scroll-proportion="-117.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/layout_old.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="975" selection-end="975" vertical-scroll-proportion="-5.8163266">
-          <folding />
-        </state>
+        <state line="19" column="37" selection-start="975" selection-end="975" vertical-scroll-proportion="-5.8163266" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2012-10-10-formhub-facilitates-energy-planning-in-liberia.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="813" selection-end="824" vertical-scroll-proportion="-7.2222223">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2011-10-20-google-docs-bootstrap-and-django.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state line="13" column="0" selection-start="813" selection-end="824" vertical-scroll-proportion="-7.2222223" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2011-12-09-staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2011-12-05-data-gatherers-of-the-world-unite.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="3681" selection-end="3692" vertical-scroll-proportion="-15.555555">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="3681" selection-end="3692" vertical-scroll-proportion="-15.555555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2012-09-19-using-technology-for-education-sector-spatial-planning-case-study-from-ghana.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="11" selection-start="2104" selection-end="2104" vertical-scroll-proportion="-8.333333">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="-3.8979592">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="568" selection-end="664" vertical-scroll-proportion="-3.4">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="15" column="11" selection-start="2104" selection-end="2104" vertical-scroll-proportion="-8.333333" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="-13.75">
+        <state line="22" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="14" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-14.88">
+        <state line="153" column="14" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="60" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.82489145">
+        <state line="41" column="0" selection-start="0" selection-end="1551" vertical-scroll-proportion="-25.625">
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="627" selection-end="627" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-10-20-google-docs-bootstrap-and-django.markdown">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="0" selection-end="666" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post_photo_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.4266467">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

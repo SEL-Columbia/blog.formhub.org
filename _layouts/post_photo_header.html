@@ -1,0 +1,19 @@
+---
+layout: layout
+---
+
+<div id="post">
+    <div id="postwrap">
+        <span style="margin-left: 610px;"><a href="https://twitter.com/intent/tweet?text={{page.title}}&url=http://blog.formhub.org/{{page.url}}"><i class="icon-twitter icon-large"></i></a></span>
+        <div class="question">{{ page.title }}</div>
+        <div class="postdate"><span class=boldallcaps> {{ page.date | date: "%A %d, %B %Y" }}</span>
+        </div>
+
+        <div class="answer">
+            {{ content }}
+        </div>
+    </div>
+</div>
+
+<div class="bottom-bar"><a class="big button gray" href="/"><i class="icon-reply"></i></a></div>
+
