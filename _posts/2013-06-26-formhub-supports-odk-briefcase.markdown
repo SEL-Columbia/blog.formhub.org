@@ -37,10 +37,10 @@ to a csv  file.
 *   Click on "Connect" to pull data from aggregate
 
 
-![](/http://www.flickr.com/photos/97973954@N06/9140785103/sizes/o/in/photostream/)
 
-7.  Specify the formhub url, enter the username and password to your formhub  
-    account.Click "Connect” to pull forms from formhub.
+![](/http://www.flickr.com/photos/97973954@N06/9140785103/sizes/z/in/photostream/)
+
+
     
 
 
