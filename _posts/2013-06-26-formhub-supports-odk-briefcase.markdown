@@ -64,7 +64,9 @@ to a csv  file.
    
 2. Click on the "Choose" button to the right of the 3rd row (Export Directory) 
    and select from the directory location.
-3. item
+   
+3. Click "Export" button on the bottom-most right of the application. 
+   This will  load  quickly and will give you the same "SUCCESS!" message
 
 
 
