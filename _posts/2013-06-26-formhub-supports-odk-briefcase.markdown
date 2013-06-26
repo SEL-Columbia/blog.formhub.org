@@ -46,6 +46,9 @@ to a csv  file.
 8.  In the main screen, find the form you want to download and tick off on the 
     check box to the left of it.
     
+![](/http://www.flickr.com/photos/97973954@N06/9143039988/)
+    
+    
 
 
     
