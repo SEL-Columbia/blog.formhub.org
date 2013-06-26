@@ -1,4 +1,5 @@
 # Formhub supports ODK Briefcase
+
 ODK Briefcase is used to gather and export data from an ODK Aggregate server e.g [formhub.org](https://formhub.org) or from ODK Collect when you are offline.
 posts/2011-12-09-staying-even-how-to-use-formhub-and-odk-collect-to-track-your-travel-expenses.markdown
 1.  Export forms with submissions from formhub (ODK Aggregate) - PULL 
@@ -56,7 +57,7 @@ to a csv  file.
 
 ![](/http://www.flickr.com/photos/97973954@N06/9143022580/)
 — 
-## Using ODK Briefcase to export data from formhub
+**Using ODK Briefcase to export data from formhub** 
 1. Go to “Export” tab. Pull down the bar to the right of "Form:" (top left) 
    and choose the relevant form. 
 
