@@ -36,8 +36,6 @@ to a csv  file.
    
 *   Click on "Connect" to pull data from aggregate
 
-
-
 ![](/http://www.flickr.com/photos/97973954@N06/9140785103/sizes/z/in/photostream/)
 
 
