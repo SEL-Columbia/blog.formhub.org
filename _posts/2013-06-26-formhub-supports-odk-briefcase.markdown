@@ -69,7 +69,9 @@ to a csv  file.
    and select from the directory location.
    
 3. Click "Export" button on the bottom-most right of the application. 
-   This will  load  quickly and will give you the same "SUCCESS!" message
+   This will  load  quickly and will give you the same "SUCCESS!" message.
+   
+   **Get data off your phones and do bulk submissions with ODK Briefcase**
 
 
 
