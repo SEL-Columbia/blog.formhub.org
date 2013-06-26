@@ -34,10 +34,10 @@ to a csv  file.
 *  On the tab "Pull," click on the bar to the right of "Pull data from:" 
    (top left) and choose "Aggregate 1.0".
    
-*   Click on "Connect" to pull data from aggregate.
+*   Click on "Connect" to pull data from aggregate
 
 
-![Pull data](/http://www.flickr.com/photos/97973954@N06/9140785103/in/set-72157634333942883)
+![Pull data](/http://www.flickr.com/photos/97973954@N06/9140785103/in/photostream/)
 
 
 
