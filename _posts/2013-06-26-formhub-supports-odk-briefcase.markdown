@@ -47,6 +47,16 @@ to a csv  file.
     check box to the left of it.
     
 ![](/http://www.flickr.com/photos/97973954@N06/9143039988/)
+
+9.   Hit "Pull" button at bottom right of page.
+
+![](/http://www.flickr.com/photos/97973954@N06/9140794389/)
+
+10.  Wait until you see the "SUCCESS!" message on the "Pull status”.
+
+![](/http://www.flickr.com/photos/97973954@N06/9143022580/)
+
+
     
     
 
