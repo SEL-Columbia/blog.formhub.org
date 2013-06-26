@@ -71,7 +71,16 @@ to a csv  file.
 3. Click "Export" button on the bottom-most right of the application. 
    This will  load  quickly and will give you the same "SUCCESS!" message.
    
-   **Get data off your phones and do bulk submissions with ODK Briefcase**
+   
+**Get data off your phones and do bulk submissions with ODK Briefcase**
+
+This can be done when you are offline and you are unable to make your submissions to formhub immediately due to slow or lack of internet connectivity.
+
+To make bulk submissions to your PC:
+
+
+   
+   
 
 
 
