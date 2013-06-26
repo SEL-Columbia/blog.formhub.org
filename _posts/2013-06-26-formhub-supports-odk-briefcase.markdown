@@ -55,8 +55,17 @@ to a csv  file.
 10.  Wait until you see the "SUCCESS!" message on the "Pull status”.
 
 ![](/http://www.flickr.com/photos/97973954@N06/9143022580/)
-
+-
 ## Using ODK Briefcase to export data from formhub
+1. Go to “Export” tab. Pull down the bar to the right of "Form:" (top left) 
+   and choose the relevant form. 
+
+![](/http://www.flickr.com/photos/97973954@N06/9143049274/)   
+   
+2. Click on the "Choose" button to the right of the 3rd row (Export Directory) 
+   and select from the directory location.
+3. item
+
 
 
 
