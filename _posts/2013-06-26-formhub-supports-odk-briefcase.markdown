@@ -1,10 +1,12 @@
 # Formhub supports ODK Briefcase
 
-ODK Briefcase is used to gather and export data from an ODK Aggregate server e.g [formhub.org](https://formhub.org) or from ODK Collect when you are offline.
+ODK Briefcase is used to gather and export data from an ODK Aggregate server e.g [formhub.org](https://formhub.org) or from ODK Collect when you are offline
 
-*   Export forms with submissions from formhub (ODK Aggregate) - PULL 
+ODK Briefcase can: 
 
-*   Make bulk submission to formhub (ODK Aggregate) - PUSH
+1. Export forms with submissions from formhub (ODK Aggregate) - PULL 
+
+*  Make bulk submission to formhub (ODK Aggregate) - PUSH
 
 *  CSV exports of submission data
 
