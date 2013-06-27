@@ -87,6 +87,7 @@ To make bulk submissions to your PC:
 *  Now the data is all in the folder.
 
 **Note:**
+
 As new data is being submitted to formhub, ODK Briefcase will intelligently pick only the new and updated submissions
 
 ODK Briefcase allows you to have a local copy - backup - of your data on formhub.
