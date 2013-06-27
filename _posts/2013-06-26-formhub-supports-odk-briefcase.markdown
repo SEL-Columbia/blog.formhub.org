@@ -22,7 +22,7 @@ Formhub stores the submissions in encrypted form, using your private key and
 ODK Briefcase you can be able to pull your data from formhub and export it 
 to a csv  file.
 
-**How to setup ODK Briefcase to work with formhub**
+## How to setup ODK Briefcase to work with formhub
 
 1. Install Java 6 or higher on your computer.
 *  Download ODK briefcase from [http://code.google.com/p/opendatakit/](http://code.google.com/p/opendatakit/)
@@ -46,7 +46,7 @@ to a csv  file.
 ![](http://farm4.staticflickr.com/3753/9143022580_819c802647_o.png)
 
 
-**Using ODK Briefcase to export data from formhub** 
+## Using ODK Briefcase to export data from formhub 
 
 1. Go to “Export” tab. Pull down the bar to the right of "Form:" (top left) 
    and choose the relevant form. 
@@ -56,7 +56,8 @@ to a csv  file.
 *  Click "Export" button on the bottom-most right of the application. 
    This will  load  quickly and will give you the same "SUCCESS!" message.
     
-**Get data off your phones and do bulk submissions with ODK Briefcase**
+
+## Get data off your phones and do bulk submissions with ODK Briefcase
 
 This can be done when you are offline and you are unable to make your submissions to formhub immediately due to slow or lack of internet connectivity.
 
@@ -90,50 +91,8 @@ To make bulk submissions to your PC:
    export to the folder created on your computer.  
 *  Now the data is all in the folder.
 
+
 ## Note:
 
   * As new data is being submitted to formhub, ODK Briefcase will intelligently pick only the new and updated submissions
   * ODK Briefcase allows you to have a local copy - backup - of your data on formhub.
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-   
-   
-
-
-
-
-
-    
-    
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
