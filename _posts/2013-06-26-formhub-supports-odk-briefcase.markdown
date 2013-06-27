@@ -84,6 +84,12 @@ To make bulk submissions to your PC:
 
 3. Create a folder to save survey data into. For example in our case the folder was
    named “Surveys”
+   
+*  Open ODK Briefcase
+
+*  On the tab "Pull," click on the bar to the right of "Pull data from:" 
+   (top left)  and choose "Mounted Android SD Card"
+
 
 
 
