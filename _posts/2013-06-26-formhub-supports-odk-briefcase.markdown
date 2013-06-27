@@ -94,6 +94,10 @@ To make bulk submissions to your PC:
    
 ![](/http://farm6.staticflickr.com/5516/9143072064_34582d54a0_o.png)
 
+6. In the next row, choose the relevant SD Card
+
+
+
 
 
 
