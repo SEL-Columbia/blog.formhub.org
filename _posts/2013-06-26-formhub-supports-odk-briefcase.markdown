@@ -39,7 +39,7 @@ to a csv  file.
    
 *   Click on "Connect" to pull data from aggregate
 
-![](/http://www.flickr.com/photos/97973954@N06/9140785103/sizes/z/in/photostream/)
+![](/http://farm4.staticflickr.com/3754/9140785103_e2b7522189_o.png)
 
 7.  Specify the formhub url, enter the username and password to your formhub account.
     Click "Connect” to pull forms from formhub.
@@ -49,7 +49,7 @@ to a csv  file.
 8.  In the main screen, find the form you want to download and tick off on the 
     check box to the left of it.
     
-![](/http://www.flickr.com/photos/97973954@N06/9143039988/)
+![](/http://farm3.staticflickr.com/2832/9143039988_2c27f93e44_o.png)
 
 9.   Hit "Pull" button at bottom right of page.
 
