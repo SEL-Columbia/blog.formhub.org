@@ -1,4 +1,9 @@
-# Formhub now supports ODK Briefcase
+---
+comments: true
+date: 2013-06-27 1:00:36
+layout: post
+title: Formhub now supports ODK Briefcase
+---
 
 ODK Briefcase is used to gather and export data from an ODK Aggregate server e.g [formhub.org](https://formhub.org) or from ODK Collect when you are offline
 
