@@ -11,7 +11,7 @@ title: "formhub blog"
         <div id="postwrap">
             <span style="margin-left: 610px;"><a href="https://twitter.com/intent/tweet?text={{post.title}}&url=http://blog.formhub.org/{{post.url}}"><i class="icon-twitter icon-large"></i></a></span>
             <div class="question"><a href="{{post.url}}">{{ post.title }}</a></div>
-            <div class="postdate"><span class=boldallcaps> {{ post.date | date: "%m %B %Y" }}</span>
+            <div class="postdate"><span class=boldallcaps> {{ post.date | date: "%B %e, %Y" }}</span>
             </div>
             <div class="answer">
                 {{ post.content | split:'<!--more-->' | first }}
@@ -24,7 +24,7 @@ title: "formhub blog"
         <div id="postwrap">
             <span style="margin-left: 610px;"><a href="https://twitter.com/intent/tweet?text={{post.title}}&url=http://blog.formhub.org/{{post.url}}"><i class="icon-twitter icon-large"></i></a></span>
             <div class="question"><a href="{{post.url}}">{{ post.title }}</a></div>
-            <div class="postdate"><span class=boldallcaps> {{ post.date | date: "%m %B %Y" }}</span></div>
+            <div class="postdate"><span class=boldallcaps> {{ post.date | date: "%B %e, %Y" }}</span></div>
             <div class="answer">
                 {{ post.content }}
             </div>
