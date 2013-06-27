@@ -92,6 +92,17 @@ To make bulk submissions to your PC:
    
 ![](/http://farm4.staticflickr.com/3831/9140835869_9da6503985_o.png)
 
+13. Click "Export" button on the bottom-most right of the application. This 
+    should load very quickly and will give you the same "SUCCESS!" message
+    Repeat the process for the forms in the SD card that you would like to 
+    export to the folder created on your computer.
+    
+*  Now the data is all in the folder.
+    
+
+
+
+
 
 
 
