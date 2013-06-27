@@ -78,6 +78,16 @@ This can be done when you are offline and you are unable to make your submission
 
 To make bulk submissions to your PC:
 
+1. Make sure that ODK Briefcase is downloaded to your PC.
+
+2. Mount your smartphone to your computer using the USB cable.
+
+3. Create a folder to save survey data into. For example in our case the folder was
+   named “Surveys”
+
+
+
+
 
    
    
