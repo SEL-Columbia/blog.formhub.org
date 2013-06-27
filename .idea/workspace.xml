@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b057cc4-9e2e-43f8-995a-c88553478869" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2013-05-30-mapbox-cloudless-earth.markdown" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_plugins/excerpt.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_plugins/postmore.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_site/about.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/posts.html" afterPath="$PROJECT_DIR$/_site/posts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.formhub.org.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,6 +18,7 @@
     <file path="/layout.html" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369911336959" ignored="false" />
     <file path="/2012-09-19-using-technology-for-education-sector-spatial-planning-case-study-from-ghana.markdown" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369332524621" ignored="false" />
     <file path="/2013-05-30-mapbox-cloudless-earth.markdown" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369912898698" ignored="false" />
+    <file path="$PROJECT_DIR$/_site/atom.xml" changelist="2b057cc4-9e2e-43f8-995a-c88553478869" time="1369915127709" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +328,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
