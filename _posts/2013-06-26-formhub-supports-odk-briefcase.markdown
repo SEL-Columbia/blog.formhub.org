@@ -53,11 +53,11 @@ to a csv  file.
 
 9.   Hit "Pull" button at bottom right of page.
 
-![](/http://www.flickr.com/photos/97973954@N06/9140794389/)
+http://farm3.staticflickr.com/2885/9140794389_af9fc64363_o.png
 
 10.  Wait until you see the "SUCCESS!" message on the "Pull status”.
 
-![](/http://www.flickr.com/photos/97973954@N06/9143022580/)
+![](/http://farm4.staticflickr.com/3753/9143022580_819c802647_o.png)
 
 
 **Using ODK Briefcase to export data from formhub** 
@@ -65,7 +65,7 @@ to a csv  file.
 1. Go to “Export” tab. Pull down the bar to the right of "Form:" (top left) 
    and choose the relevant form. 
 
-![](/http://www.flickr.com/photos/97973954@N06/9143049274/)   
+![](/http://farm8.staticflickr.com/7281/9143049274_dc072d8ccb_o.png)
    
 2. Click on the "Choose" button to the right of the 3rd row (Export Directory) 
    and select from the directory location.
@@ -91,6 +91,8 @@ To make bulk submissions to your PC:
 
 *  On the tab "Pull," click on the bar to the right of "Pull data from:" 
    (top left)  and choose "Mounted Android SD Card"
+   
+![](/http://farm6.staticflickr.com/5516/9143072064_34582d54a0_o.png)
 
 
 
