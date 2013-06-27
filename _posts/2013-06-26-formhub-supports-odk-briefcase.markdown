@@ -39,25 +39,25 @@ to a csv  file.
    
 *   Click on "Connect" to pull data from aggregate
 
-![](/http://farm4.staticflickr.com/3754/9140785103_e2b7522189_o.png)
+![](http://farm4.staticflickr.com/3754/9140785103_e2b7522189_o.png)
 
 7.  Specify the formhub url, enter the username and password to your formhub account.
     Click "Connect” to pull forms from formhub.
   
-![](/http://farm3.staticflickr.com/2805/9140785689_77aefd32cf_o.png)
+![](http://farm3.staticflickr.com/2805/9140785689_77aefd32cf_o.png)
 
 8.  In the main screen, find the form you want to download and tick off on the 
     check box to the left of it.
     
-![](/http://farm3.staticflickr.com/2832/9143039988_2c27f93e44_o.png)
+![](http://farm3.staticflickr.com/2832/9143039988_2c27f93e44_o.png)
 
 9.   Hit "Pull" button at bottom right of page.
 
-http://farm3.staticflickr.com/2885/9140794389_af9fc64363_o.png
+![](http://farm3.staticflickr.com/2885/9140794389_af9fc64363_o.png)
 
 10.  Wait until you see the "SUCCESS!" message on the "Pull status”.
 
-![](/http://farm4.staticflickr.com/3753/9143022580_819c802647_o.png)
+![](http://farm4.staticflickr.com/3753/9143022580_819c802647_o.png)
 
 
 **Using ODK Briefcase to export data from formhub** 
@@ -65,7 +65,7 @@ http://farm3.staticflickr.com/2885/9140794389_af9fc64363_o.png
 1. Go to “Export” tab. Pull down the bar to the right of "Form:" (top left) 
    and choose the relevant form. 
 
-![](/http://farm8.staticflickr.com/7281/9143049274_dc072d8ccb_o.png)
+![](http://farm8.staticflickr.com/7281/9143049274_dc072d8ccb_o.png)
    
 2. Click on the "Choose" button to the right of the 3rd row (Export Directory) 
    and select from the directory location.
@@ -92,7 +92,7 @@ To make bulk submissions to your PC:
 *  On the tab "Pull," click on the bar to the right of "Pull data from:" 
    (top left)  and choose "Mounted Android SD Card"
    
-![](/http://farm6.staticflickr.com/5516/9143072064_34582d54a0_o.png)
+![](http://farm6.staticflickr.com/5516/9143072064_34582d54a0_o.png)
 
 6. In the next row, choose the relevant SD Card
 
