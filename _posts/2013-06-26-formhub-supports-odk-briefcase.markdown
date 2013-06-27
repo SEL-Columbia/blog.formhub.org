@@ -77,8 +77,11 @@ To make bulk submissions to your PC:
 *  Open ODK Briefcase
 *  On the tab "Pull," click on the bar to the right of "Pull data from:" 
    (top left)  and choose "Mounted Android SD Card"
+   
  ![](http://farm6.staticflickr.com/5516/9143072064_34582d54a0_o.png)
+ 
 6. In the next row, choose the relevant SD Card
+
 ![](http://farm4.staticflickr.com/3811/9140828551_bf9b74f1bd_o.png)
 
 7. In the main screen, find your survey and tick off the check box to the left of it
