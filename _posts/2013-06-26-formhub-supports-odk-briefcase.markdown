@@ -33,8 +33,8 @@ to a csv  file.
 7. Specify the formhub url, enter the username and password to your 
    formhub account. Click "Connect” to pull forms from formhub.
 ![](http://farm3.staticflickr.com/2805/9140785689_77aefd32cf_o.png)
-8. In the main screen, find the form you want to download and tick off on 
-   the check box to the left of it.
+8. In the main screen, find the form you want to download and tick off on the check 
+   box to the left of it.
 ![](http://farm3.staticflickr.com/2832/9143039988_2c27f93e44_o.png)
 9. Hit "Pull" button at bottom right of page.
 ![](http://farm3.staticflickr.com/2885/9140794389_af9fc64363_o.png)
