@@ -30,7 +30,6 @@ to a csv  file.
 *   Click on "Connect" to pull data from aggregate
 
 ![](http://farm4.staticflickr.com/3754/9140785103_e2b7522189_o.png)
-
 7.  Specify the formhub url, enter the username and password to your formhub account.
     Click "Connect” to pull forms from formhub.
     
