@@ -54,11 +54,9 @@ to a csv  file.
 ![](http://farm8.staticflickr.com/7281/9143049274_dc072d8ccb_o.png)  
 2. Click on the "Choose" button to the right of the 3rd row (Export Directory) 
    and select from the directory location.   
-   
-*  Click "Export" button on the bottom-most right of the application. 
+3. Click "Export" button on the bottom-most right of the application. 
    This will  load  quickly and will give you the same "SUCCESS!" message.
-   
-   
+    
 **Get data off your phones and do bulk submissions with ODK Briefcase**
 
 This can be done when you are offline and you are unable to make your submissions to formhub immediately due to slow or lack of internet connectivity.
@@ -74,38 +72,29 @@ To make bulk submissions to your PC:
    (top left)  and choose "Mounted Android SD Card"
    
  ![](http://farm6.staticflickr.com/5516/9143072064_34582d54a0_o.png)
- 
 6. In the next row, choose the relevant SD Card
 
 ![](http://farm4.staticflickr.com/3811/9140828551_bf9b74f1bd_o.png)
-
 7. In the main screen, find your survey and tick off the check box to the left of it
 
 ![](/http://farm8.staticflickr.com/7412/9143058348_909077c651_o.png)
-
 8. Hit "Pull" button at bottom right of page
-*  Wait until you see the "SUCCESS!" message on the application as shown on the 
-   figure below
-   
+9. Wait until you see the "SUCCESS!" message on the application as shown on the 
+   figure below:
    
 ![](/http://farm4.staticflickr.com/3769/9143060470_d8dd0efed9_o.png)
-
 10. Now go to the "Export" tab
-
-*  Pull down the bar to the right of "Form:" (top left) and choose the 
-   relevant  survey
-
-*  Hit the "Choose" button to the right of the 3rd row (Export Directory) and 
-   choose  the fold
-   
+11. Pull down the bar to the right of "Form:" (top left) and choose the 
+    relevant  survey
+12. Hit the "Choose" button to the right of the 3rd row (Export Directory) and 
+    choose  the fold
+  
 ![](/http://farm4.staticflickr.com/3831/9140835869_9da6503985_o.png)
-
 13. Click "Export" button on the bottom-most right of the application. This 
     should load very quickly and will give you the same "SUCCESS!" message
     Repeat the process for the forms in the SD card that you would like to 
-    export to the folder created on your computer.
-    
-*  Now the data is all in the folder.
+    export to the folder created on your computer.  
+14. Now the data is all in the folder.
 
 **Note:**
 As new data is being submitted to formhub, ODK Briefcase will intelligently pick only the new and updated submissions
