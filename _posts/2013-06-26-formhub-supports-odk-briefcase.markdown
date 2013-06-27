@@ -37,10 +37,8 @@ to a csv  file.
    the check box to the left of it.
 ![](http://farm3.staticflickr.com/2832/9143039988_2c27f93e44_o.png)
 9. Hit "Pull" button at bottom right of page.
-
 ![](http://farm3.staticflickr.com/2885/9140794389_af9fc64363_o.png)
 10. Wait until you see the "SUCCESS!" message on the "Pull status”.
-
 ![](http://farm4.staticflickr.com/3753/9143022580_819c802647_o.png)
 
 
