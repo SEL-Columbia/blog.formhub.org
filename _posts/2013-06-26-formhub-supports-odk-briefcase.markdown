@@ -70,6 +70,29 @@ To make bulk submissions to your PC:
 6. In the next row, choose the relevant SD Card
 ![](http://farm4.staticflickr.com/3811/9140828551_bf9b74f1bd_o.png)
 
+7. In the main screen, find your survey and tick off the check box to the left of it
+
+![](/http://farm8.staticflickr.com/7412/9143058348_909077c651_o.png)
+
+8. Hit "Pull" button at bottom right of page
+
+*  Wait until you see the "SUCCESS!" message on the application as shown on the 
+   figure below
+   
+   
+![](/http://farm4.staticflickr.com/3769/9143060470_d8dd0efed9_o.png)
+
+10. Now go to the "Export" tab
+
+*  Pull down the bar to the right of "Form:" (top left) and choose the 
+   relevant  survey
+
+*  Hit the "Choose" button to the right of the 3rd row (Export Directory) and 
+   choose  the fold
+   
+![](/http://farm4.staticflickr.com/3831/9140835869_9da6503985_o.png)
+
+
 
 
 
