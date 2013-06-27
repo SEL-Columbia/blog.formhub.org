@@ -5,10 +5,10 @@ ODK Briefcase is used to gather and export data from an ODK Aggregate server e.g
 ODK Briefcase can: 
 
 1. Export forms with submissions from formhub (ODK Aggregate) - PULL 
-*  Make bulk submission to formhub (ODK Aggregate) - PUSH
-*  CSV exports of submission data
-*  Pull forms and submissions collected by ODK Collect from a mobile phone
-*  Supports encrypted forms: it can make encrypted submissions to formhub as well
+1.  Make bulk submission to formhub (ODK Aggregate) - PUSH
+1.  CSV exports of submission data
+1.  Pull forms and submissions collected by ODK Collect from a mobile phone
+1.  Supports encrypted forms: it can make encrypted submissions to formhub as well
     as decrypt encrypted submissions from formhub when exporting the data to csv.
     
 If you have encrypted forms and making submissions to formhub, you’ll realise 
