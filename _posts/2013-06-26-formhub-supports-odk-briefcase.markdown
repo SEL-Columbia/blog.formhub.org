@@ -34,9 +34,9 @@ to a csv  file.
     Click "Connect” to pull forms from formhub.
     
 ![](http://farm3.staticflickr.com/2805/9140785689_77aefd32cf_o.png)
-8.  In the main screen, find the form you want to download and tick off on the 
-    check box to the left of it.
-    
+8.  In the main screen, find the form you want to download and tick off on 
+    the check box to the left of it.
+   
 ![](http://farm3.staticflickr.com/2832/9143039988_2c27f93e44_o.png)
 9.  Hit "Pull" button at bottom right of page.
 
@@ -53,9 +53,9 @@ to a csv  file.
    
 ![](http://farm8.staticflickr.com/7281/9143049274_dc072d8ccb_o.png)  
 2. Click on the "Choose" button to the right of the 3rd row (Export Directory) 
-   and select from the directory location. 
+   and select from the directory location.   
    
-3. Click "Export" button on the bottom-most right of the application. 
+*  Click "Export" button on the bottom-most right of the application. 
    This will  load  quickly and will give you the same "SUCCESS!" message.
    
    
