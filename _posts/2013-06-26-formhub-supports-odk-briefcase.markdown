@@ -37,28 +37,18 @@ to a csv  file.
 *  On the tab "Pull," click on the bar to the right of "Pull data from:" 
    (top left) and choose "Aggregate 1.0".
    
-*   Click on "Connect" to pull data from aggregate
-
+*  Click on "Connect" to pull data from aggregate
 ![](http://farm4.staticflickr.com/3754/9140785103_e2b7522189_o.png)
-
-7.  Specify the formhub url, enter the username and password to your formhub account.
+*  Specify the formhub url, enter the username and password to your formhub account.
     Click "Connect” to pull forms from formhub.
-  
 ![](http://farm3.staticflickr.com/2805/9140785689_77aefd32cf_o.png)
-
-8.  In the main screen, find the form you want to download and tick off on the 
+*  In the main screen, find the form you want to download and tick off on the 
     check box to the left of it.
-    
-![](http://farm3.staticflickr.com/2832/9143039988_2c27f93e44_o.png)
-
-9.   Hit "Pull" button at bottom right of page.
-
+ ![](http://farm3.staticflickr.com/2832/9143039988_2c27f93e44_o.png)
+*  Hit "Pull" button at bottom right of page.
 ![](http://farm3.staticflickr.com/2885/9140794389_af9fc64363_o.png)
-
-10.  Wait until you see the "SUCCESS!" message on the "Pull status”.
-
+*  Wait until you see the "SUCCESS!" message on the "Pull status”.
 ![](http://farm4.staticflickr.com/3753/9143022580_819c802647_o.png)
-
 
 **Using ODK Briefcase to export data from formhub** 
 
