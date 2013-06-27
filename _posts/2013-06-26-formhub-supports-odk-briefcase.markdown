@@ -84,7 +84,6 @@ To make bulk submissions to your PC:
 ![](/http://farm8.staticflickr.com/7412/9143058348_909077c651_o.png)
 
 8. Hit "Pull" button at bottom right of page
-
 *  Wait until you see the "SUCCESS!" message on the application as shown on the 
    figure below
    
