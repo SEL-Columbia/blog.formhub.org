@@ -22,6 +22,8 @@ Formhub stores the submissions in encrypted form, using your private key and
 ODK Briefcase you can be able to pull your data from formhub and export it 
 to a csv  file.
 
+<!--more-->
+
 ## How to setup ODK Briefcase to work with formhub
 
 1. Install Java 6 or higher on your computer.
