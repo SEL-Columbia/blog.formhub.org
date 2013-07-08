@@ -19,7 +19,7 @@ The syntax for the form is as shown by the image below:
 ![](http://farm6.staticflickr.com/5449/9236043481_06a3e98257_o.png)
 *  Upload the xlsform to formhub as usual.
 
-<!--more-->
+<!--more-->  
 
 **How to decrypt forms?**
 
