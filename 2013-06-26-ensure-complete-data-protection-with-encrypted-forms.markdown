@@ -14,6 +14,11 @@ The public key is used to encrypt data while the private key decrypts it. Only a
    __‘submission_url’__ (is your submission url),  and __‘public_key’__ (is the 
    base64RsaPublicKey). See  [http://opendatakit.org/help/encrypted-forms/ ](http://opendatakit.org/help/encrypted-forms/ ). Do not put a password on the key.
 
+The two keys are a pair; each public key can only be decrypted by its own corresponding private key. The public key is the key that is on the ‘public_key’ column on the ‘settings’ worksheet of your xlsform.  The public key is openly available.
+
+The public key can be shared with others but the private key should be kept secret, never to be shared, keep it safe and secure. If anyone has access to your private key they can easily have access to your encrypted data.
+
+
 
 
 
