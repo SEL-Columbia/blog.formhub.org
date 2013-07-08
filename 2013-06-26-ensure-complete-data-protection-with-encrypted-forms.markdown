@@ -19,6 +19,18 @@ The syntax for the form is as shown by the image below:
 ![](/http://farm6.staticflickr.com/5449/9236043481_06a3e98257_o.png)
 *  Upload the xlsform to formhub as usual.
 
+<!--more-->
+
+**How to decrypt forms?**
+
+ODK Briefcase (see earlier post) is used to download the encrypted files from Formhub and decrypt them locally on your computer using a private key ensuring single access to the data.  
+
+1. Open ODK Briefcase.
+*  PULL the encrypted form  to your PC. See how to PULL forms from formhub in our
+   previous post [Formhub now supports ODK briefcase](http://blog.formhub.org/2013/06/27/formhub-supports-odk-briefcase/)
+
+
+
 
 
 
