@@ -30,6 +30,7 @@ ODK Briefcase (see earlier post) is used to download the encrypted files from Fo
    previous post [Formhub now supports ODK briefcase](http://blog.formhub.org/2013/06/27/formhub-supports-odk-briefcase/)
 *  The encrypted form is decrypted only during export. Go to the ‘Export Tab’ and
    specify the PEM private key to decrypt the form.
+![](/http://farm3.staticflickr.com/2883/9238828660_b9353b9e51_o.png)
    
 
 
