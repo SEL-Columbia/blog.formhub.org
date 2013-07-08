@@ -28,6 +28,9 @@ ODK Briefcase (see earlier post) is used to download the encrypted files from Fo
 1. Open ODK Briefcase.
 *  PULL the encrypted form  to your PC. See how to PULL forms from formhub in our
    previous post [Formhub now supports ODK briefcase](http://blog.formhub.org/2013/06/27/formhub-supports-odk-briefcase/)
+*  The encrypted form is decrypted only during export. Go to the ‘Export Tab’ and
+   specify the PEM private key to decrypt the form.
+   
 
 
 
