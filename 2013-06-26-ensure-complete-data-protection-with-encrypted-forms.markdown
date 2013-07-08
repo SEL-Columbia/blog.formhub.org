@@ -9,14 +9,17 @@ The public key is used to encrypt data while the private key decrypts it. Only a
 
 **How to encrypt XLS forms**
 
-1. In your XLSform, add a worksheet called __'settings'__
-*  In this worksheet create three columns namely: __‘ id_string’__, 
-   __‘submission_url’__ (is your submission url),  and __‘public_key’__ (is the 
+1. In your XLSform, add a worksheet called *'settings'*
+*  In this worksheet create three columns namely: *‘ id_string’*, 
+   *‘submission_url’*  (is your submission url),  and *‘public_key’*  (is the 
    base64RsaPublicKey). See  [http://opendatakit.org/help/encrypted-forms/ ](http://opendatakit.org/help/encrypted-forms/ ). Do not put a password on the key.
-
 The two keys are a pair; each public key can only be decrypted by its own corresponding private key. The public key is the key that is on the ‘public_key’ column on the ‘settings’ worksheet of your xlsform.  The public key is openly available.
-
 The public key can be shared with others but the private key should be kept secret, never to be shared, keep it safe and secure. If anyone has access to your private key they can easily have access to your encrypted data.
+The syntax for the form is as shown by the image below:
+![](/http://farm6.staticflickr.com/5449/9236043481_06a3e98257_o.png)
+*  Upload the xlsform to formhub as usual.
+
+
 
 
 
