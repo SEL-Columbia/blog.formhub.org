@@ -16,7 +16,7 @@ The public key is used to encrypt data while the private key decrypts it. Only a
 The two keys are a pair; each public key can only be decrypted by its own corresponding private key. The public key is the key that is on the ‘public_key’ column on the ‘settings’ worksheet of your xlsform.  The public key is openly available.
 The public key can be shared with others but the private key should be kept secret, never to be shared, keep it safe and secure. If anyone has access to your private key they can easily have access to your encrypted data.
 The syntax for the form is as shown by the image below:
-![](/http://farm6.staticflickr.com/5449/9236043481_06a3e98257_o.png)
+![](http://farm6.staticflickr.com/5449/9236043481_06a3e98257_o.png)
 *  Upload the xlsform to formhub as usual.
 
 <!--more-->
@@ -30,7 +30,8 @@ ODK Briefcase (see earlier post) is used to download the encrypted files from Fo
    previous post [Formhub now supports ODK briefcase](http://blog.formhub.org/2013/06/27/formhub-supports-odk-briefcase/)
 *  The encrypted form is decrypted only during export. Go to the ‘Export Tab’ and
    specify the PEM private key to decrypt the form.
-![](/http://farm3.staticflickr.com/2883/9238828660_b9353b9e51_o.png)
+![](http://farm3.staticflickr.com/2883/9238828660_b9353b9e51_o.png)
+
    
 
 
