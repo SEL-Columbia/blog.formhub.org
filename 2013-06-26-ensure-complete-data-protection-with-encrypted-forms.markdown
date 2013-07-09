@@ -7,7 +7,7 @@ We are excited to add support for encrypted forms to Formhub. Encrypted forms wo
 Encryption is a way of disguising data in such a way as to hide its content. ODK Collect provides support for asymmetric keys which are composed of a pair of encryption keys. The two keys used for encryption are: **public** and **private** keys.
 The public key is used to encrypt data while the private key decrypts it. Only a person who has the private key, can decrypt the data encrypted with the public key. The private key will only be used for decryption by ODK briefcase.
 
-**How to encrypt XLS forms**
+## How to encrypt XLS forms
 
 1. In your XLSform, add a worksheet called *'settings'*
 *  In this worksheet create three columns namely: *‘ id_string’*, 
