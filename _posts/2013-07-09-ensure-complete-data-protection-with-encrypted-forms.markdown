@@ -1,7 +1,3 @@
-comments: true
-date: 2013-07-09
-layout: post
-title: Ensure complete data protection with encrypted forms
 
 ## Encrypted forms
 
