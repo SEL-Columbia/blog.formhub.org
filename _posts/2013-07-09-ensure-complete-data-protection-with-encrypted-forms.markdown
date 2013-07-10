@@ -1,3 +1,8 @@
+comments: true
+date: 2013-07-09
+layout: post
+title: Ensure complete data protection with encrypted forms
+
 ## Encrypted forms
 
 We are excited to add support for encrypted forms to Formhub. Encrypted forms work by encrypting the data on the phone the moment it is saved. Data sent to formhub is encrypted and completely inaccessible to anyone not possessing the private key.  In this situation, Formhub serves as simply as a storage locker for your encrypted files. A place to upload and then download for later for local decryption (using ODK Briefcase).   Since the form submissions are encrypted, it means things like the map view won’t work.  However, the extra level of security makes using Formhub in a way to collect sensitive data while meeting IRB protocols possible. This has been a major request from our University colleagues so we are particularly excited to announce support for this important feature.
