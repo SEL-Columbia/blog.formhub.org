@@ -1,7 +1,9 @@
-﻿markdown: kramdown
+markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title
 auto: true
+rdiscount:
+  extensions: [smart]
 
 name: formhub blog
 url: http://blog.formhub.org
@@ -9,5 +11,6 @@ description: updates from the formhub team on your favorite data gathering platf
 twitter: formhub
 github: modilabs
 gravatar_url: 
+
 
  
