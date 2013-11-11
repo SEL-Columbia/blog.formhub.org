@@ -62,5 +62,5 @@ _openssl rsa -in MyPrivateKey.pem -inform PEM -out MyPublicKey.pem -outform PEM 
 1. You have now generated two files that is:
   - **MyPrivateKey.pem** - your private key that you need to move to a secure location.
   - **MyPublicKey.pem** - your public key, that you can share with anyone you want to share information securely
-1. Open the **MyPublicKey.pem** with notepad, your public key is the uninterrupted very long string of characters e.g _Tjhfur1K9+BRQ2USezIPbtyahbfuNqviI5Suhm8maA3JoELRHj9psjf/oNWoG87aFtKNbLrRaCEDPoFMDC9NEzWlv5L49BygeieMu/wg/rtMT0M0kgDbKxw5weJJgyb9P41aMsrqAAAAB3NzaC1yc2EAAAADAQABAAABAQDfNoFX7bh3bfdW6lGfDht1Ea8PUBLKYjugbHN5jS7j5fHV6dexM+kzvITVgoyjhhKPXeCbaT62vD/saTqJFXJzlysnZ24fqxNkjreO5K5EQ9c3ggwqML06+AKrFUSP5jpnyJJH8btNwKl6D5pG4ZseHwDUKzZtaextPTNQz67kdYIKdtCkCsQHVsy4xvy/A0jzfK3xyOkG6j+L_, this is what you will paste under the public_key field in your settings sheet on your xlsform.
+1. Open the **MyPublicKey.pem** with notepad, your public key is the uninterrupted very long string of characters, this is what you will paste under the public_key field in your settings sheet on your xlsform.
 1. **MyPrivateKey.pem** is the file you will use when exporting the submissions using ODK Briefcase.
