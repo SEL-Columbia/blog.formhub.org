@@ -1,6 +1,6 @@
 ---
 comments: true
-date: {}
+date: 2013-07-23
 layout: post
 title: Ensure Complete Data Protection With Encrypted Forms
 published: true
@@ -17,33 +17,33 @@ ODK Collect supports the ability to encrypt the content of a form the moment it 
 ## How to encrypt XLS forms
 
 1. In your XLSform, add a worksheet called *'settings'*
-1. In this worksheet create three columns namely: *' id_string'*, 
-   *'submission_url'*  (is your submission url),  and *'public_key'*  (is the 
+1. In this worksheet create three columns namely: *' id_string'*,
+   *'submission_url'*  (is your submission url),  and *'public_key'*  (is the
    base64RsaPublicKey). See below for more information on generating the required public key. Do not set a password when generating the key. The public key is the key that is on the 'public_key' column on the 'settings' worksheet of your xlsform. The syntax for the form is as shown by the image below:
 ![](http://farm6.staticflickr.com/5449/9236043481_06a3e98257_o.png)
 1. Upload the xlsform to formhub as usual. You should see a label with the text
   "encrypted" next to your form name on formhub as shown below:
   ![](http://farm6.staticflickr.com/5462/9302350574_d323840bef_o.png)
-  
-  
+
+
 <!--more-->
 
 
 ## How to decrypt forms?
 
-ODK Briefcase (see earlier post) is used to download the encrypted files from Formhub and decrypt them locally on your computer using a private key ensuring single access to the data. For decryption to be successful with ODK Briefcase  make sure you install Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files 6 from this [site](http://www.oracle.com/technetwork/java/javase/downloads/index.html)  
+ODK Briefcase (see earlier post) is used to download the encrypted files from Formhub and decrypt them locally on your computer using a private key ensuring single access to the data. For decryption to be successful with ODK Briefcase  make sure you install Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files 6 from this [site](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 1. Open ODK Briefcase.
 1. PULL the encrypted form  to your PC. See how to PULL forms from formhub in our
    previous post [Formhub now supports ODK briefcase](http://blog.formhub.org/2013/06/27/formhub-supports-odk-briefcase/)
 1. The encrypted form is decrypted only during export. Go to the 'Export Tab' and
    specify the PEM private key to decrypt the form.
-   
+
    ![](http://farm3.staticflickr.com/2883/9238828660_b9353b9e51_o.png)
 1. Click 'Export'
 1. Data is exported as a CSV file, you can now be able to view the unencrypted
-   data.  
-   
+   data.
+
 ## Generating RSA Encryption Keys
 
 To generate the Rsa public-private key pairs  you can use the OpenSSL software package, which is pre-installed on OSX and Linux. On Windows you have to download and install the OpenSSL software package from this [site](http://slproweb.com/products/Win32OpenSSL.html).
@@ -56,7 +56,7 @@ To generate the Rsa public-private key pairs  you can use the OpenSSL software p
 1. Create a 2048-bit private key and write it to the **MyPrivateKey.pem** file by typing the following command, then press **Enter**:
 _openssl genpkey -out MyPrivateKey.pem -outform PEM -algorithm RSA -pkeyopt rsa_keygen_bits:2048_
 ![](http://farm8.staticflickr.com/7309/9915249576_a8994127af_o.png)
-1. Then, extract the public key for the above private key. Type the following command then press **Enter**: 
+1. Then, extract the public key for the above private key. Type the following command then press **Enter**:
 _openssl rsa -in MyPrivateKey.pem -inform PEM -out MyPublicKey.pem -outform PEM -pubout_
 ![](http://farm8.staticflickr.com/7309/9915249576_a8994127af_o.png)
 1. You have now generated two files that is:
