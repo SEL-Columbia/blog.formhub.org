@@ -1,6 +1,6 @@
 ---
 comments: true
-date: 2013-03-07 19:38:35
+date: 2014-03-07 19:38:35
 layout: post
 slug: View-Formhub-geodata-on-your-phone 
 title: View Formhub geodata on your phone
