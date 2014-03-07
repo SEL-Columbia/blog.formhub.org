@@ -4,6 +4,7 @@ date: 2013-03-07 19:38:35
 layout: post
 slug: View-Formhub-geodata-on-your-phone 
 title: View Formhub geodata on your phone
+published: true
 ---
 
 A while ago, on the formhub mailing list, a user asked how formhub data could be view on the phone. He was doing Registration of households, and he was wondering how to load up the data for these households so that surveyors could see which houses to visit when they were going back.
